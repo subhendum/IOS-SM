@@ -1,0 +1,207 @@
+TTabBarTrial
+v7
+r0
+t322725695.202368
+cCheck dependencies
+cProcessInfoPlistFile "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/Info.plist" TabBarTrial-Info.plist
+cCompileXIB "/Users/musica/iOS Development/TabBarTrial/MainWindow.xib"
+cProcessPCH /var/folders/Kx/KxHCkOzyEjiuNTRF3PHGrE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarTrial_Prefix-fqznrwftcjqghvadzgccjxlhdprs/TabBarTrial_Prefix.pch.gch TabBarTrial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/main.o "/Users/musica/iOS Development/TabBarTrial/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/TabBarTrialAppDelegate.o "/Users/musica/iOS Development/TabBarTrial/Classes/TabBarTrialAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial" normal i386
+cGenerateDSYMFile "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app.dSYM" "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial"
+cTouch "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D80423D0000000000000110
+t1300251197
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/musica/iOS Development/TabBarTrial/Classes/TabBarTrialAppDelegate.h
+c000000004D8C2FB90000000000000155
+t1301032889
+s341
+i<UIKit/UIKit.h>
+
+N/Users/musica/iOS Development/TabBarTrial/Classes/TabBarTrialAppDelegate.m
+c000000004D8C2FB900000000000009E0
+t1301032889
+s2528
+i"TabBarTrialAppDelegate.h"
+
+N/Users/musica/iOS Development/TabBarTrial/MainWindow.xib
+c000000004D8C2FB9000000000000211C
+t1301032889
+s8476
+
+N/Users/musica/iOS Development/TabBarTrial/TabBarTrial_Prefix.pch
+c000000004D8C2FB900000000000000BF
+t1301032889
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app
+t1301032895
+s204
+
+N/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app.dSYM
+t1301032895
+s102
+
+N/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/Info.plist
+t1301032893
+s607
+
+N/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/MainWindow.nib
+t1301032894
+s988
+
+N/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/PkgInfo
+t1301032893
+s8
+
+N/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial
+t1301032895
+s15760
+
+N/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/TabBarTrial.LinkFileList
+c000000004D8C2FBD000000000000011C
+t1301032893
+s284
+
+N/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/TabBarTrialAppDelegate.o
+t1301032895
+s49488
+
+N/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/main.o
+t1301032895
+s6308
+
+N/Users/musica/iOS Development/TabBarTrial/main.m
+c000000004D8C2FB9000000000000016F
+t1301032889
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/Kx/KxHCkOzyEjiuNTRF3PHGrE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarTrial_Prefix-fqznrwftcjqghvadzgccjxlhdprs/TabBarTrial_Prefix.pch.gch
+t1301032894
+s15453392
+
+NTabBarTrial-Info.plist
+c000000004D8C2FB9000000000000038D
+t1301032889
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322725693#322725693#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/TabBarTrialAppDelegate.o "/Users/musica/iOS Development/TabBarTrial/Classes/TabBarTrialAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322725695.074559
+e322725695.158798
+r1
+xCompileC
+xbuild/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/TabBarTrialAppDelegate.o
+x/Users/musica/iOS Development/TabBarTrial/Classes/TabBarTrialAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/musica/iOS Development/TabBarTrial/Classes/TabBarTrialAppDelegate.m322725695#322725695#0(0"0(0#0#74"/Users/musica/iOS Development/TabBarTrial/Classes/TabBarTrialAppDelegate.m8602826176#2093"    cd "/Users/musica/iOS Development/TabBarTrial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-generated-files.hmap" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-own-target-headers.hmap" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-all-target-headers.hmap" -iquote "/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-project-headers.hmap" "-F/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator" "-I/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/include" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/DerivedSources/i386" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/DerivedSources" -include /var/folders/Kx/KxHCkOzyEjiuNTRF3PHGrE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarTrial_Prefix-fqznrwftcjqghvadzgccjxlhdprs/TabBarTrial_Prefix.pch -c "/Users/musica/iOS Development/TabBarTrial/Classes/TabBarTrialAppDelegate.m" -o "/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/TabBarTrialAppDelegate.o"0#
+
+CCompileC build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/main.o "/Users/musica/iOS Development/TabBarTrial/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s322725695.073054
+e322725695.136821
+r1
+xCompileC
+xbuild/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/main.o
+x/Users/musica/iOS Development/TabBarTrial/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/musica/iOS Development/TabBarTrial/main.m322725695#322725695#0(0"0(0#0#48"/Users/musica/iOS Development/TabBarTrial/main.m8604545600#2049"    cd "/Users/musica/iOS Development/TabBarTrial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-generated-files.hmap" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-own-target-headers.hmap" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-all-target-headers.hmap" -iquote "/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-project-headers.hmap" "-F/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator" "-I/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/include" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/DerivedSources/i386" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/DerivedSources" -include /var/folders/Kx/KxHCkOzyEjiuNTRF3PHGrE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarTrial_Prefix-fqznrwftcjqghvadzgccjxlhdprs/TabBarTrial_Prefix.pch -c "/Users/musica/iOS Development/TabBarTrial/main.m" -o "/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/musica/iOS Development/TabBarTrial/MainWindow.xib"
+s322725693.711865
+e322725694.078716
+r1
+xCompileXIB
+x/Users/musica/iOS Development/TabBarTrial/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322725693#322725694#0(0"0(0#0#56"/Users/musica/iOS Development/TabBarTrial/MainWindow.xib8605876032#589"    cd "/Users/musica/iOS Development/TabBarTrial"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/MainWindow.nib" "/Users/musica/iOS Development/TabBarTrial/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app.dSYM" "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial"
+s322725695.184199
+e322725695.198752
+r1
+xGenerateDSYMFile
+x/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app.dSYM
+x/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/TabBarTrial.app.dSYM build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial322725695#322725695#0(0"0(0#0#97"/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial8605719008#410"    cd "/Users/musica/iOS Development/TabBarTrial"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial" -o "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app.dSYM"0#
+
+CLd "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial" normal i386
+s322725695.158909
+e322725695.184082
+r1
+xLd
+x/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial
+xnormal
+xi386
+lSLF07#2@102"Link /Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial322725695#322725695#0(0"0(0#0#0"8606318432#945"    cd "/Users/musica/iOS Development/TabBarTrial"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator" "-F/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator" -filelist "/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/Objects-normal/i386/TabBarTrial.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/TabBarTrial"0#
+
+CProcessInfoPlistFile "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/Info.plist" TabBarTrial-Info.plist
+s322725693.697161
+e322725693.711744
+r1
+xProcessInfoPlistFile
+x/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/Info.plist
+xTabBarTrial-Info.plist
+lSLF07#2@30"Process TabBarTrial-Info.plist322725693#322725693#0(0"0(0#0#64"/Users/musica/iOS Development/TabBarTrial/TabBarTrial-Info.plist4913256135273047040#506"    cd "/Users/musica/iOS Development/TabBarTrial"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TabBarTrial-Info.plist -genpkginfo "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app/Info.plist"0#
+
+CProcessPCH /var/folders/Kx/KxHCkOzyEjiuNTRF3PHGrE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarTrial_Prefix-fqznrwftcjqghvadzgccjxlhdprs/TabBarTrial_Prefix.pch.gch TabBarTrial_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322725694.079017
+e322725695.072902
+r1
+xProcessPCH
+x/var/folders/Kx/KxHCkOzyEjiuNTRF3PHGrE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarTrial_Prefix-fqznrwftcjqghvadzgccjxlhdprs/TabBarTrial_Prefix.pch.gch
+xTabBarTrial_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile TabBarTrial_Prefix.pch322725694#322725695#0(0"0(0#0#64"/Users/musica/iOS Development/TabBarTrial/TabBarTrial_Prefix.pch8603898464#1932"    cd "/Users/musica/iOS Development/TabBarTrial"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-generated-files.hmap" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-own-target-headers.hmap" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-all-target-headers.hmap" -iquote "/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/TabBarTrial-project-headers.hmap" "-F/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator" "-I/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/include" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/DerivedSources/i386" "-I/Users/musica/iOS Development/TabBarTrial/build/TabBarTrial.build/Debug-iphonesimulator/TabBarTrial.build/DerivedSources" -c "/Users/musica/iOS Development/TabBarTrial/TabBarTrial_Prefix.pch" -o /var/folders/Kx/KxHCkOzyEjiuNTRF3PHGrE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TabBarTrial_Prefix-fqznrwftcjqghvadzgccjxlhdprs/TabBarTrial_Prefix.pch.gch0#
+
+CTouch "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app"
+s322725695.198938
+e322725695.202312
+r1
+xTouch
+x/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app
+lSLF07#2@91"Touch /Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app322725695#322725695#0(0"0(0#0#0"8604375136#292"    cd "/Users/musica/iOS Development/TabBarTrial"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/musica/iOS Development/TabBarTrial/build/Debug-iphonesimulator/TabBarTrial.app"0#
+

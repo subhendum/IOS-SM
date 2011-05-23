@@ -1,0 +1,75 @@
+TMultipleDetailViews
+v7
+r1
+
+N/Users/musica/iOS Development/MultipleDetailViews/ReadMe.txt
+c000000004BC63640000000000000084B
+t1271281216
+s2123
+
+N/Users/musica/iOS Development/MultipleDetailViews/build/Debug/MultipleDetailViews.app
+t2
+s0
+
+N/Users/musica/iOS Development/MultipleDetailViews/build/Debug/MultipleDetailViews.app/Contents/Info.plist
+t2
+s0
+
+N/Users/musica/iOS Development/MultipleDetailViews/build/Debug/MultipleDetailViews.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/musica/iOS Development/MultipleDetailViews/build/Debug/MultipleDetailViews.app/Contents/Resources/ReadMe.txt
+t2
+s0
+
+N/Users/musica/iOS Development/MultipleDetailViews/build/Debug/MultipleDetailViews.app/Contents/Resources/en.lproj/FirstDetailView.nib
+t2
+s0
+
+N/Users/musica/iOS Development/MultipleDetailViews/build/Debug/MultipleDetailViews.app/Contents/Resources/en.lproj/MainWindow.nib
+t2
+s0
+
+N/Users/musica/iOS Development/MultipleDetailViews/build/Debug/MultipleDetailViews.app/Contents/Resources/en.lproj/SecondDetailView.nib
+t2
+s0
+
+N/Users/musica/iOS Development/MultipleDetailViews/en.lproj/FirstDetailView.xib
+c000000004BC636400000000000004DDB
+t1271281216
+s19931
+
+N/Users/musica/iOS Development/MultipleDetailViews/en.lproj/MainWindow.xib
+c000000004BC636400000000000007025
+t1271281216
+s28709
+
+N/Users/musica/iOS Development/MultipleDetailViews/en.lproj/SecondDetailView.xib
+c000000004BC636400000000000004CE0
+t1271281216
+s19680
+
+NMultipleDetailViews-Info.plist
+c000000004BC6364000000000000004AA
+t1271281216
+s1194
+
+CCompileXIB "/Users/musica/iOS Development/MultipleDetailViews/en.lproj/FirstDetailView.xib"
+r0
+
+CCompileXIB "/Users/musica/iOS Development/MultipleDetailViews/en.lproj/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/musica/iOS Development/MultipleDetailViews/en.lproj/SecondDetailView.xib"
+r0
+
+CCpResource build/Debug/MultipleDetailViews.app/Contents/Resources/ReadMe.txt ReadMe.txt
+r0
+
+CProcessInfoPlistFile "/Users/musica/iOS Development/MultipleDetailViews/build/Debug/MultipleDetailViews.app/Contents/Info.plist" MultipleDetailViews-Info.plist
+r0
+
+CTouch "/Users/musica/iOS Development/MultipleDetailViews/build/Debug/MultipleDetailViews.app"
+r0
+

@@ -1,0 +1,4 @@
+In file included from /Users/musica/iOS Development/MultipleDetailViews/Classes/AppDelegate.m:11:
+/Users/musica/iOS Development/MultipleDetailViews/Classes/SettingsViewController.h:10:9: error: #import expects "FILENAME" or <FILENAME>
+/Users/musica/iOS Development/MultipleDetailViews/Classes/AppDelegate.m: In function '-[AppDelegate application:didFinishLaunchingWithOptions:]':
+/Users/musica/iOS Development/MultipleDetailViews/Classes/AppDelegate.m:39: warning: incompatible Objective-C types 'struct User *', expected 'struct NSString *' when passing argument 1 of 'initWithUser:' from distinct Objective-C type

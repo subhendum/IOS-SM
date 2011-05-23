@@ -1,0 +1,1504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AA66DA115C16800003B21C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AA66D3115C16800003B21C /* AppDelegate.m */; };
+		28AA66DB115C16800003B21C /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AA66D5115C16800003B21C /* FirstDetailViewController.m */; };
+		28AA66DC115C16800003B21C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AA66D7115C16800003B21C /* RootViewController.m */; };
+		28AA66DD115C16800003B21C /* SecondDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AA66D9115C16800003B21C /* SecondDetailViewController.m */; };
+		28AA66DF115C16850003B21C /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28AA66DE115C16850003B21C /* ReadMe.txt */; };
+		7E9552EE11766B410003D25C /* FirstDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E9552E811766B410003D25C /* FirstDetailView.xib */; };
+		7E9552EF11766B410003D25C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E9552EA11766B410003D25C /* MainWindow.xib */; };
+		7E9552F011766B410003D25C /* SecondDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E9552EC11766B410003D25C /* SecondDetailView.xib */; };
+		E20CFF7513684A06000E29CF /* DownloadedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E20CFF7413684A06000E29CF /* DownloadedFile.m */; };
+		E2381522136D6D1F00E98211 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2381521136D6D1F00E98211 /* MessageUI.framework */; };
+		E2466E2D137BE12E00155438 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2466E2C137BE12E00155438 /* loading.gif */; };
+		E2466E4F137BE4F800155438 /* load12.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E43137BE4F800155438 /* load12.png */; };
+		E2466E50137BE4F800155438 /* load11.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E44137BE4F800155438 /* load11.png */; };
+		E2466E51137BE4F800155438 /* load10.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E45137BE4F800155438 /* load10.png */; };
+		E2466E52137BE4F800155438 /* load9.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E46137BE4F800155438 /* load9.png */; };
+		E2466E53137BE4F800155438 /* load8.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E47137BE4F800155438 /* load8.png */; };
+		E2466E54137BE4F800155438 /* load7.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E48137BE4F800155438 /* load7.png */; };
+		E2466E55137BE4F800155438 /* load6.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E49137BE4F800155438 /* load6.png */; };
+		E2466E56137BE4F800155438 /* load5.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E4A137BE4F800155438 /* load5.png */; };
+		E2466E57137BE4F800155438 /* load4.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E4B137BE4F800155438 /* load4.png */; };
+		E2466E58137BE4F800155438 /* load3.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E4C137BE4F800155438 /* load3.png */; };
+		E2466E59137BE4F800155438 /* load2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E4D137BE4F800155438 /* load2.png */; };
+		E2466E5A137BE4F800155438 /* load1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2466E4E137BE4F800155438 /* load1.png */; };
+		E25AD652135EF39300505E47 /* ppt.png in Resources */ = {isa = PBXBuildFile; fileRef = E25AD649135EF39300505E47 /* ppt.png */; };
+		E25AD654135EF39300505E47 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = E25AD64B135EF39300505E47 /* folder.png */; };
+		E25AD655135EF39300505E47 /* search_folder.png in Resources */ = {isa = PBXBuildFile; fileRef = E25AD64C135EF39300505E47 /* search_folder.png */; };
+		E25AD656135EF39300505E47 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E25AD64D135EF39300505E47 /* settings.png */; };
+		E25AD657135EF39300505E47 /* FilesListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25AD64E135EF39300505E47 /* FilesListView.xib */; };
+		E25AD658135EF39300505E47 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25AD64F135EF39300505E47 /* SettingsView.xib */; };
+		E25AD65D135EF3B200505E47 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AD65A135EF3B200505E47 /* SettingsViewController.m */; };
+		E25AD65E135EF3B200505E47 /* FilesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25AD65C135EF3B200505E47 /* FilesListViewController.m */; };
+		E25ADAE7135F191100505E47 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25ADAE5135F191100505E47 /* LoginViewController.m */; };
+		E25ADAE8135F191100505E47 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25ADAE6135F191100505E47 /* LoginView.xib */; };
+		E25ADAF7135F1A8B00505E47 /* company.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E25ADAF6135F1A8B00505E47 /* company.jpg */; };
+		E25ADAFA135F1C5600505E47 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E25ADAF9135F1C5600505E47 /* banner.jpg */; };
+		E25ADAFD135F1CAD00505E47 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E25ADAFC135F1CAD00505E47 /* logo.png */; };
+		E265D2AA137121FD00D6CA5F /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E265D2A8137121FD00D6CA5F /* ImageViewController.m */; };
+		E265D2AB137121FD00D6CA5F /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E265D2A9137121FD00D6CA5F /* ImageViewController.xib */; };
+		E27511B3137A814B003FAE70 /* 3gp.png in Resources */ = {isa = PBXBuildFile; fileRef = E27511B2137A814B003FAE70 /* 3gp.png */; };
+		E27511B5137A815E003FAE70 /* gif.png in Resources */ = {isa = PBXBuildFile; fileRef = E27511B4137A815E003FAE70 /* gif.png */; };
+		E2751208137A9802003FAE70 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E2751207137A9802003FAE70 /* Reachability.m */; };
+		E275120A137A9815003FAE70 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2751209137A9815003FAE70 /* SystemConfiguration.framework */; };
+		E28A2766136041570046D2DF /* GDataInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = E28A2765136041570046D2DF /* GDataInterface.m */; };
+		E292A826136FE8A0002168DC /* xls.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A825136FE8A0002168DC /* xls.png */; };
+		E292A830136FE8D9002168DC /* txt.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A827136FE8D9002168DC /* txt.png */; };
+		E292A831136FE8D9002168DC /* png.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A828136FE8D9002168DC /* png.png */; };
+		E292A832136FE8D9002168DC /* pdf.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A829136FE8D9002168DC /* pdf.png */; };
+		E292A833136FE8D9002168DC /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A82A136FE8D9002168DC /* mail.png */; };
+		E292A834136FE8D9002168DC /* jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A82B136FE8D9002168DC /* jpg.png */; };
+		E292A835136FE8D9002168DC /* html.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A82C136FE8D9002168DC /* html.png */; };
+		E292A836136FE8D9002168DC /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A82D136FE8D9002168DC /* doc.png */; };
+		E292A837136FE8D9002168DC /* bmp.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A82E136FE8D9002168DC /* bmp.png */; };
+		E292A838136FE8D9002168DC /* avi.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A82F136FE8D9002168DC /* avi.png */; };
+		E292A8BA13700B87002168DC /* rtf.png in Resources */ = {isa = PBXBuildFile; fileRef = E292A8B913700B87002168DC /* rtf.png */; };
+		E293CA3613716E8B0028FF86 /* ImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E293CA3413716E8B0028FF86 /* ImageController.m */; };
+		E293CA3713716E8B0028FF86 /* ImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E293CA3513716E8B0028FF86 /* ImageController.xib */; };
+		E293CA5D137173400028FF86 /* Default-LandscapeRight~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E293CA5B137173400028FF86 /* Default-LandscapeRight~ipad.png */; };
+		E293CA5E137173400028FF86 /* Default-LandscapeLeft~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E293CA5C137173400028FF86 /* Default-LandscapeLeft~ipad.png */; };
+		E2A65D3213602D43000CC319 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A65D3113602D43000CC319 /* Default~ipad.png */; };
+		E2A65D38136034A0000CC319 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A65D37136034A0000CC319 /* Default-Landscape~ipad.png */; };
+		E2BDB29913640D3100E24C0B /* GDataFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDAFF613640D3000E24C0B /* GDataFramework.m */; };
+		E2BDB29A13640D3100E24C0B /* GDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDAFF813640D3000E24C0B /* GDataUtilities.m */; };
+		E2BDB29B13640D3100E24C0B /* GDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDAFFC13640D3000E24C0B /* GDataObject.m */; };
+		E2BDB29C13640D3100E24C0B /* GDataEntryBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDAFFE13640D3000E24C0B /* GDataEntryBase.m */; };
+		E2BDB29D13640D3100E24C0B /* GDataFeedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB00013640D3000E24C0B /* GDataFeedBase.m */; };
+		E2BDB29E13640D3100E24C0B /* GDataQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB00213640D3000E24C0B /* GDataQuery.m */; };
+		E2BDB29F13640D3100E24C0B /* GDataServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB00413640D3000E24C0B /* GDataServiceBase.m */; };
+		E2BDB2A013640D3100E24C0B /* GDataServiceGoogle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB00613640D3000E24C0B /* GDataServiceGoogle.m */; };
+		E2BDB2A113640D3100E24C0B /* GDataBaseElements.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB00A13640D3000E24C0B /* GDataBaseElements.m */; };
+		E2BDB2A213640D3100E24C0B /* GDataAtomPubControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB00C13640D3000E24C0B /* GDataAtomPubControl.m */; };
+		E2BDB2A313640D3100E24C0B /* GDataLink.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB00E13640D3000E24C0B /* GDataLink.m */; };
+		E2BDB2A413640D3100E24C0B /* GDataPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB01013640D3000E24C0B /* GDataPerson.m */; };
+		E2BDB2A513640D3100E24C0B /* GDataComment.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB01213640D3000E24C0B /* GDataComment.m */; };
+		E2BDB2A613640D3100E24C0B /* GDataCustomProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB01413640D3000E24C0B /* GDataCustomProperty.m */; };
+		E2BDB2A713640D3100E24C0B /* GDataDocumentElements.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB01613640D3000E24C0B /* GDataDocumentElements.m */; };
+		E2BDB2A813640D3100E24C0B /* GDataEntryLink.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB01813640D3000E24C0B /* GDataEntryLink.m */; };
+		E2BDB2A913640D3100E24C0B /* GDataFeedLink.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB01A13640D3000E24C0B /* GDataFeedLink.m */; };
+		E2BDB2AA13640D3100E24C0B /* GDataCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB01B13640D3000E24C0B /* GDataCategory.m */; };
+		E2BDB2AB13640D3100E24C0B /* GDataDeleted.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB01E13640D3000E24C0B /* GDataDeleted.m */; };
+		E2BDB2AC13640D3100E24C0B /* GDataWho.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB01F13640D3000E24C0B /* GDataWho.m */; };
+		E2BDB2AD13640D3100E24C0B /* GDataWhere.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB02213640D3000E24C0B /* GDataWhere.m */; };
+		E2BDB2AE13640D3100E24C0B /* GDataWhen.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB02413640D3000E24C0B /* GDataWhen.m */; };
+		E2BDB2AF13640D3100E24C0B /* GDataName.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB02613640D3000E24C0B /* GDataName.m */; };
+		E2BDB2B013640D3100E24C0B /* GDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB02813640D3000E24C0B /* GDataGenerator.m */; };
+		E2BDB2B113640D3100E24C0B /* GDataMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB02B13640D3000E24C0B /* GDataMoney.m */; };
+		E2BDB2B213640D3100E24C0B /* GDataTextConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB02D13640D3000E24C0B /* GDataTextConstruct.m */; };
+		E2BDB2B313640D3100E24C0B /* GDataValueConstruct.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB02F13640D3000E24C0B /* GDataValueConstruct.m */; };
+		E2BDB2B413640D3100E24C0B /* GDataExtendedProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB03113640D3000E24C0B /* GDataExtendedProperty.m */; };
+		E2BDB2B513640D3100E24C0B /* GDataEntryContent.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB03313640D3000E24C0B /* GDataEntryContent.m */; };
+		E2BDB2B613640D3100E24C0B /* GDataEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB03513640D3000E24C0B /* GDataEmail.m */; };
+		E2BDB2B713640D3100E24C0B /* GDataGeoPt.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB03713640D3000E24C0B /* GDataGeoPt.m */; };
+		E2BDB2B813640D3100E24C0B /* GDataIM.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB03913640D3000E24C0B /* GDataIM.m */; };
+		E2BDB2B913640D3100E24C0B /* GDataOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB03B13640D3000E24C0B /* GDataOrganization.m */; };
+		E2BDB2BA13640D3100E24C0B /* GDataOrganizationName.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB03D13640D3000E24C0B /* GDataOrganizationName.m */; };
+		E2BDB2BB13640D3100E24C0B /* GDataPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB03F13640D3000E24C0B /* GDataPhoneNumber.m */; };
+		E2BDB2BC13640D3100E24C0B /* GDataPostalAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB04113640D3000E24C0B /* GDataPostalAddress.m */; };
+		E2BDB2BD13640D3100E24C0B /* GDataStructuredPostalAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB04213640D3000E24C0B /* GDataStructuredPostalAddress.m */; };
+		E2BDB2BE13640D3100E24C0B /* GDataRating.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB04513640D3000E24C0B /* GDataRating.m */; };
+		E2BDB2BF13640D3100E24C0B /* GDataDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB04713640D3000E24C0B /* GDataDateTime.m */; };
+		E2BDB2C013640D3100E24C0B /* GDataBatchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB04913640D3000E24C0B /* GDataBatchOperation.m */; };
+		E2BDB2C113640D3100E24C0B /* GDataBatchID.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB04B13640D3000E24C0B /* GDataBatchID.m */; };
+		E2BDB2C213640D3100E24C0B /* GDataBatchStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB04D13640D3000E24C0B /* GDataBatchStatus.m */; };
+		E2BDB2C313640D3100E24C0B /* GDataBatchInterrupted.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB04F13640D3000E24C0B /* GDataBatchInterrupted.m */; };
+		E2BDB2C413640D3100E24C0B /* GDataHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB05213640D3000E24C0B /* GDataHTTPFetcher.m */; };
+		E2BDB2C513640D3100E24C0B /* GDataHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB05413640D3000E24C0B /* GDataHTTPUploadFetcher.m */; };
+		E2BDB2C613640D3100E24C0B /* GDataHTTPFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB05613640D3000E24C0B /* GDataHTTPFetcherLogging.m */; };
+		E2BDB2C713640D3100E24C0B /* GDataAuthenticationFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB05813640D3000E24C0B /* GDataAuthenticationFetcher.m */; };
+		E2BDB2C813640D3100E24C0B /* GDataProgressMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB05A13640D3000E24C0B /* GDataProgressMonitorInputStream.m */; };
+		E2BDB2C913640D3100E24C0B /* GDataGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB05C13640D3000E24C0B /* GDataGatherInputStream.m */; };
+		E2BDB2CA13640D3100E24C0B /* GDataMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB05E13640D3000E24C0B /* GDataMIMEDocument.m */; };
+		E2BDB2CB13640D3100E24C0B /* GDataServerError.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB06013640D3000E24C0B /* GDataServerError.m */; };
+		E2BDB2CC13640D3100E24C0B /* GDataGeo.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB06313640D3000E24C0B /* GDataGeo.m */; };
+		E2BDB2CD13640D3100E24C0B /* GDataNormalPlayTime.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB06613640D3000E24C0B /* GDataNormalPlayTime.m */; };
+		E2BDB2CE13640D3100E24C0B /* GDataMediaThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB06813640D3000E24C0B /* GDataMediaThumbnail.m */; };
+		E2BDB2CF13640D3100E24C0B /* GDataMediaKeywords.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB06A13640D3000E24C0B /* GDataMediaKeywords.m */; };
+		E2BDB2D013640D3100E24C0B /* GDataMediaGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB06C13640D3000E24C0B /* GDataMediaGroup.m */; };
+		E2BDB2D113640D3100E24C0B /* GDataMediaContent.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB06E13640D3000E24C0B /* GDataMediaContent.m */; };
+		E2BDB2D213640D3100E24C0B /* GDataMediaCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB07013640D3000E24C0B /* GDataMediaCredit.m */; };
+		E2BDB2D313640D3100E24C0B /* GDataMediaCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB07313640D3000E24C0B /* GDataMediaCategory.m */; };
+		E2BDB2D413640D3100E24C0B /* GDataMediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB07513640D3000E24C0B /* GDataMediaPlayer.m */; };
+		E2BDB2D513640D3100E24C0B /* GDataMediaRating.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB07713640D3000E24C0B /* GDataMediaRating.m */; };
+		E2BDB2D613640D3100E24C0B /* GDataMediaRestriction.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB07913640D3000E24C0B /* GDataMediaRestriction.m */; };
+		E2BDB2DD13640D3100E24C0B /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB08813640D3000E24C0B /* GDataXMLNode.m */; };
+		E2BDB2DE13640D3100E24C0B /* GDataEntryACL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB08C13640D3000E24C0B /* GDataEntryACL.m */; };
+		E2BDB2DF13640D3100E24C0B /* GDataFeedACL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB08E13640D3000E24C0B /* GDataFeedACL.m */; };
+		E2BDB2E013640D3100E24C0B /* GDataACLScope.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB09013640D3000E24C0B /* GDataACLScope.m */; };
+		E2BDB2E113640D3100E24C0B /* GDataACLRole.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB09213640D3000E24C0B /* GDataACLRole.m */; };
+		E2BDB2E213640D3100E24C0B /* GDataACLKeyedRole.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB09413640D3000E24C0B /* GDataACLKeyedRole.m */; };
+		E2BDB2E313640D3100E24C0B /* GDataServiceACL.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB09613640D3000E24C0B /* GDataServiceACL.m */; };
+		E2BDB2E413640D3100E24C0B /* GDataAtomCategoryGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB09A13640D3000E24C0B /* GDataAtomCategoryGroup.m */; };
+		E2BDB2E513640D3100E24C0B /* GDataAtomCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB09C13640D3000E24C0B /* GDataAtomCollection.m */; };
+		E2BDB2E613640D3100E24C0B /* GDataAtomWorkspace.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB09E13640D3000E24C0B /* GDataAtomWorkspace.m */; };
+		E2BDB2E713640D3100E24C0B /* GDataAtomServiceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB0A013640D3000E24C0B /* GDataAtomServiceDocument.m */; };
+		E2BDB33613640D3100E24C0B /* GDataEntryDocBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB14C13640D3000E24C0B /* GDataEntryDocBase.m */; };
+		E2BDB33713640D3100E24C0B /* GDataEntryStandardDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB14E13640D3000E24C0B /* GDataEntryStandardDoc.m */; };
+		E2BDB33813640D3100E24C0B /* GDataEntryDrawingDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB15013640D3000E24C0B /* GDataEntryDrawingDoc.m */; };
+		E2BDB33913640D3100E24C0B /* GDataEntryFileDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB15213640D3000E24C0B /* GDataEntryFileDoc.m */; };
+		E2BDB33A13640D3100E24C0B /* GDataEntryPDFDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB15413640D3000E24C0B /* GDataEntryPDFDoc.m */; };
+		E2BDB33B13640D3100E24C0B /* GDataEntryPresentationDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB15613640D3000E24C0B /* GDataEntryPresentationDoc.m */; };
+		E2BDB33C13640D3100E24C0B /* GDataEntrySpreadsheetDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB15813640D3000E24C0B /* GDataEntrySpreadsheetDoc.m */; };
+		E2BDB33D13640D3100E24C0B /* GDataEntryFolderDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB15A13640D3000E24C0B /* GDataEntryFolderDoc.m */; };
+		E2BDB33E13640D3100E24C0B /* GDataEntryDocRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB15C13640D3000E24C0B /* GDataEntryDocRevision.m */; };
+		E2BDB33F13640D3100E24C0B /* GDataEntryDocListMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB15E13640D3000E24C0B /* GDataEntryDocListMetadata.m */; };
+		E2BDB34013640D3100E24C0B /* GDataFeedDocList.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB16013640D3000E24C0B /* GDataFeedDocList.m */; };
+		E2BDB34113640D3100E24C0B /* GDataFeedDocRevision.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB16213640D3000E24C0B /* GDataFeedDocRevision.m */; };
+		E2BDB34213640D3100E24C0B /* GDataDocConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB16413640D3000E24C0B /* GDataDocConstants.m */; };
+		E2BDB34313640D3100E24C0B /* GDataDocTransferFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB16613640D3000E24C0B /* GDataDocTransferFormat.m */; };
+		E2BDB34413640D3100E24C0B /* GDataDocFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB16813640D3000E24C0B /* GDataDocFeature.m */; };
+		E2BDB34513640D3100E24C0B /* GDataDocMaxUploadSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB16A13640D3000E24C0B /* GDataDocMaxUploadSize.m */; };
+		E2BDB34613640D3100E24C0B /* GDataServiceGoogleDocs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB16C13640D3000E24C0B /* GDataServiceGoogleDocs.m */; };
+		E2BDB34713640D3100E24C0B /* GDataQueryDocs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB16D13640D3000E24C0B /* GDataQueryDocs.m */; };
+		E2BDB35413640D3100E24C0B /* GDataFeedGoogleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB18C13640D3000E24C0B /* GDataFeedGoogleBase.m */; };
+		E2BDB35513640D3100E24C0B /* GDataEntryGoogleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB18E13640D3000E24C0B /* GDataEntryGoogleBase.m */; };
+		E2BDB35613640D3100E24C0B /* GDataQueryGoogleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB19013640D3000E24C0B /* GDataQueryGoogleBase.m */; };
+		E2BDB35713640D3100E24C0B /* GDataServiceGoogleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB19213640D3000E24C0B /* GDataServiceGoogleBase.m */; };
+		E2BDB35813640D3100E24C0B /* GDataGoogleBaseAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB19413640D3000E24C0B /* GDataGoogleBaseAttribute.m */; };
+		E2BDB35913640D3100E24C0B /* GDataGoogleBaseMetadataAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB19613640D3000E24C0B /* GDataGoogleBaseMetadataAttribute.m */; };
+		E2BDB35A13640D3100E24C0B /* GDataGoogleBaseMetadataValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB19813640D3000E24C0B /* GDataGoogleBaseMetadataValue.m */; };
+		E2BDB35B13640D3100E24C0B /* GDataGoogleBaseMetadataAttributeList.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB19A13640D3000E24C0B /* GDataGoogleBaseMetadataAttributeList.m */; };
+		E2BDB35C13640D3100E24C0B /* GDataGoogleBaseMetadataItemType.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB19C13640D3000E24C0B /* GDataGoogleBaseMetadataItemType.m */; };
+		E2BDB37D13640D3100E24C0B /* GDataEntrySpreadsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1E613640D3000E24C0B /* GDataEntrySpreadsheet.m */; };
+		E2BDB37E13640D3100E24C0B /* GDataEntrySpreadsheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1E813640D3000E24C0B /* GDataEntrySpreadsheetCell.m */; };
+		E2BDB37F13640D3100E24C0B /* GDataEntrySpreadsheetList.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1EA13640D3000E24C0B /* GDataEntrySpreadsheetList.m */; };
+		E2BDB38013640D3100E24C0B /* GDataEntrySpreadsheetTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1EC13640D3000E24C0B /* GDataEntrySpreadsheetTable.m */; };
+		E2BDB38113640D3100E24C0B /* GDataEntrySpreadsheetRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1EE13640D3000E24C0B /* GDataEntrySpreadsheetRecord.m */; };
+		E2BDB38213640D3100E24C0B /* GDataEntryWorksheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1F013640D3000E24C0B /* GDataEntryWorksheet.m */; };
+		E2BDB38313640D3100E24C0B /* GDataFeedSpreadsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1F213640D3000E24C0B /* GDataFeedSpreadsheet.m */; };
+		E2BDB38413640D3100E24C0B /* GDataFeedSpreadsheetTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1F413640D3000E24C0B /* GDataFeedSpreadsheetTable.m */; };
+		E2BDB38513640D3100E24C0B /* GDataFeedSpreadsheetRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1F513640D3000E24C0B /* GDataFeedSpreadsheetRecord.m */; };
+		E2BDB38613640D3100E24C0B /* GDataFeedSpreadsheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1F813640D3000E24C0B /* GDataFeedSpreadsheetCell.m */; };
+		E2BDB38713640D3100E24C0B /* GDataFeedSpreadsheetList.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1FA13640D3000E24C0B /* GDataFeedSpreadsheetList.m */; };
+		E2BDB38813640D3100E24C0B /* GDataFeedWorksheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1FC13640D3000E24C0B /* GDataFeedWorksheet.m */; };
+		E2BDB38913640D3100E24C0B /* GDataSpreadsheetConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB1FE13640D3000E24C0B /* GDataSpreadsheetConstants.m */; };
+		E2BDB38A13640D3100E24C0B /* GDataSpreadsheetHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB20013640D3000E24C0B /* GDataSpreadsheetHeader.m */; };
+		E2BDB38B13640D3100E24C0B /* GDataSpreadsheetColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB20213640D3000E24C0B /* GDataSpreadsheetColumn.m */; };
+		E2BDB38C13640D3100E24C0B /* GDataSpreadsheetData.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB20413640D3000E24C0B /* GDataSpreadsheetData.m */; };
+		E2BDB38D13640D3100E24C0B /* GDataSpreadsheetField.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB20613640D3000E24C0B /* GDataSpreadsheetField.m */; };
+		E2BDB38E13640D3100E24C0B /* GDataQuerySpreadsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB20813640D3000E24C0B /* GDataQuerySpreadsheet.m */; };
+		E2BDB38F13640D3100E24C0B /* GDataRowColumnCount.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB20A13640D3000E24C0B /* GDataRowColumnCount.m */; };
+		E2BDB39013640D3100E24C0B /* GDataServiceGoogleSpreadsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB20C13640D3000E24C0B /* GDataServiceGoogleSpreadsheet.m */; };
+		E2BDB39113640D3100E24C0B /* GDataSpreadsheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB20E13640D3000E24C0B /* GDataSpreadsheetCell.m */; };
+		E2BDB39213640D3100E24C0B /* GDataSpreadsheetCustomElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BDB21013640D3000E24C0B /* GDataSpreadsheetCustomElement.m */; };
+		E2C9003F13654A7800DF2E18 /* GDFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C9003E13654A7800DF2E18 /* GDFileViewController.m */; };
+		E2C9004113654A9400DF2E18 /* GDFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C9004013654A9400DF2E18 /* GDFileViewController.xib */; };
+		E2C9004513654BD000DF2E18 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C9004413654BD000DF2E18 /* MediaPlayer.framework */; };
+		E2C9009B13655C0900DF2E18 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2C9009A13655C0900DF2E18 /* Settings.bundle */; };
+		E2C901B11365AD8A00DF2E18 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C901AF1365AD8A00DF2E18 /* SearchViewController.m */; };
+		E2C901B21365AD8A00DF2E18 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C901B01365AD8A00DF2E18 /* SearchViewController.xib */; };
+		E2C901DB1365C06C00DF2E18 /* mov.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C901DA1365C06C00DF2E18 /* mov.png */; };
+		E2C9023C1365D29200DF2E18 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C9023B1365D29200DF2E18 /* download.png */; };
+		E2CE42761372783D009D3A3C /* blue-green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2CE42721372783D009D3A3C /* blue-green.jpg */; };
+		E2CE42771372783D009D3A3C /* blue-pink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2CE42731372783D009D3A3C /* blue-pink.jpg */; };
+		E2CE42781372783D009D3A3C /* green_circle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2CE42741372783D009D3A3C /* green_circle.jpg */; };
+		E2CE42791372783D009D3A3C /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2CE42751372783D009D3A3C /* green.jpg */; };
+		E2CE427F13727E13009D3A3C /* grenn-right.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CE427E13727E13009D3A3C /* grenn-right.png */; };
+		E2CE428B13727FF3009D3A3C /* blue-left.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CE428A13727FF3009D3A3C /* blue-left.png */; };
+		E2CE431F137291A8009D3A3C /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CE431D137291A8009D3A3C /* DownloadViewController.m */; };
+		E2CE4320137291A8009D3A3C /* DownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CE431E137291A8009D3A3C /* DownloadViewController.xib */; };
+		E2CE44581372ADE1009D3A3C /* SideBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CE44571372ADE1009D3A3C /* SideBanner.png */; };
+		E2CE445C1372B03B009D3A3C /* side.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CE445B1372B03B009D3A3C /* side.png */; };
+		E2CE448E1372BCB7009D3A3C /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CE448D1372BCB7009D3A3C /* app_icon.png */; };
+		E2E4167D13607EE2008F449B /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E4167C13607EE2008F449B /* User.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* MultipleDetailViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleDetailViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AA66D2115C16800003B21C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28AA66D3115C16800003B21C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28AA66D4115C16800003B21C /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
+		28AA66D5115C16800003B21C /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
+		28AA66D6115C16800003B21C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28AA66D7115C16800003B21C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28AA66D8115C16800003B21C /* SecondDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetailViewController.h; sourceTree = "<group>"; };
+		28AA66D9115C16800003B21C /* SecondDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDetailViewController.m; sourceTree = "<group>"; };
+		28AA66DE115C16850003B21C /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MultipleDetailViews_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleDetailViews_Prefix.pch; sourceTree = "<group>"; };
+		7E9552E911766B410003D25C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstDetailView.xib; sourceTree = "<group>"; };
+		7E9552EB11766B410003D25C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		7E9552ED11766B410003D25C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondDetailView.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MultipleDetailViews-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultipleDetailViews-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E20CFF7313684A06000E29CF /* DownloadedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadedFile.h; sourceTree = "<group>"; };
+		E20CFF7413684A06000E29CF /* DownloadedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadedFile.m; sourceTree = "<group>"; };
+		E2381521136D6D1F00E98211 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E2466E2C137BE12E00155438 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		E2466E43137BE4F800155438 /* load12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load12.png; sourceTree = "<group>"; };
+		E2466E44137BE4F800155438 /* load11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load11.png; sourceTree = "<group>"; };
+		E2466E45137BE4F800155438 /* load10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load10.png; sourceTree = "<group>"; };
+		E2466E46137BE4F800155438 /* load9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load9.png; sourceTree = "<group>"; };
+		E2466E47137BE4F800155438 /* load8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load8.png; sourceTree = "<group>"; };
+		E2466E48137BE4F800155438 /* load7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load7.png; sourceTree = "<group>"; };
+		E2466E49137BE4F800155438 /* load6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load6.png; sourceTree = "<group>"; };
+		E2466E4A137BE4F800155438 /* load5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load5.png; sourceTree = "<group>"; };
+		E2466E4B137BE4F800155438 /* load4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load4.png; sourceTree = "<group>"; };
+		E2466E4C137BE4F800155438 /* load3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load3.png; sourceTree = "<group>"; };
+		E2466E4D137BE4F800155438 /* load2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load2.png; sourceTree = "<group>"; };
+		E2466E4E137BE4F800155438 /* load1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load1.png; sourceTree = "<group>"; };
+		E25AD649135EF39300505E47 /* ppt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ppt.png; sourceTree = "<group>"; };
+		E25AD64B135EF39300505E47 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		E25AD64C135EF39300505E47 /* search_folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_folder.png; sourceTree = "<group>"; };
+		E25AD64D135EF39300505E47 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		E25AD64E135EF39300505E47 /* FilesListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilesListView.xib; sourceTree = "<group>"; };
+		E25AD64F135EF39300505E47 /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		E25AD659135EF3B200505E47 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		E25AD65A135EF3B200505E47 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E25AD65B135EF3B200505E47 /* FilesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilesListViewController.h; sourceTree = "<group>"; };
+		E25AD65C135EF3B200505E47 /* FilesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilesListViewController.m; sourceTree = "<group>"; };
+		E25ADAE4135F191100505E47 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E25ADAE5135F191100505E47 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E25ADAE6135F191100505E47 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginView.xib; path = Classes/LoginView.xib; sourceTree = "<group>"; };
+		E25ADAF6135F1A8B00505E47 /* company.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = company.jpg; sourceTree = "<group>"; };
+		E25ADAF9135F1C5600505E47 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		E25ADAFC135F1CAD00505E47 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		E265D2A7137121FD00D6CA5F /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		E265D2A8137121FD00D6CA5F /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		E265D2A9137121FD00D6CA5F /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ImageViewController.xib; path = Classes/ImageViewController.xib; sourceTree = "<group>"; };
+		E27511B2137A814B003FAE70 /* 3gp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3gp.png; sourceTree = "<group>"; };
+		E27511B4137A815E003FAE70 /* gif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gif.png; sourceTree = "<group>"; };
+		E2751206137A9802003FAE70 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E2751207137A9802003FAE70 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E2751209137A9815003FAE70 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E28A2764136041570046D2DF /* GDataInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataInterface.h; sourceTree = "<group>"; };
+		E28A2765136041570046D2DF /* GDataInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataInterface.m; sourceTree = "<group>"; };
+		E292A825136FE8A0002168DC /* xls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xls.png; sourceTree = "<group>"; };
+		E292A827136FE8D9002168DC /* txt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txt.png; sourceTree = "<group>"; };
+		E292A828136FE8D9002168DC /* png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = png.png; sourceTree = "<group>"; };
+		E292A829136FE8D9002168DC /* pdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdf.png; sourceTree = "<group>"; };
+		E292A82A136FE8D9002168DC /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		E292A82B136FE8D9002168DC /* jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jpg.png; sourceTree = "<group>"; };
+		E292A82C136FE8D9002168DC /* html.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = html.png; sourceTree = "<group>"; };
+		E292A82D136FE8D9002168DC /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
+		E292A82E136FE8D9002168DC /* bmp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmp.png; sourceTree = "<group>"; };
+		E292A82F136FE8D9002168DC /* avi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avi.png; sourceTree = "<group>"; };
+		E292A8B913700B87002168DC /* rtf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rtf.png; sourceTree = "<group>"; };
+		E293CA3313716E8B0028FF86 /* ImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageController.h; sourceTree = "<group>"; };
+		E293CA3413716E8B0028FF86 /* ImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageController.m; sourceTree = "<group>"; };
+		E293CA3513716E8B0028FF86 /* ImageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ImageController.xib; path = Classes/ImageController.xib; sourceTree = "<group>"; };
+		E293CA5B137173400028FF86 /* Default-LandscapeRight~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeRight~ipad.png"; sourceTree = "<group>"; };
+		E293CA5C137173400028FF86 /* Default-LandscapeLeft~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-LandscapeLeft~ipad.png"; sourceTree = "<group>"; };
+		E2A65D3113602D43000CC319 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		E2A65D37136034A0000CC319 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		E2BDAFF313640D3000E24C0B /* GData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GData.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/GData.h"; sourceTree = SOURCE_ROOT; };
+		E2BDAFF413640D3000E24C0B /* GDataDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataDefines.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/GDataDefines.h"; sourceTree = SOURCE_ROOT; };
+		E2BDAFF513640D3000E24C0B /* GDataFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataFramework.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/GDataFramework.h"; sourceTree = SOURCE_ROOT; };
+		E2BDAFF613640D3000E24C0B /* GDataFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataFramework.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/GDataFramework.m"; sourceTree = SOURCE_ROOT; };
+		E2BDAFF713640D3000E24C0B /* GDataUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataUtilities.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/GDataUtilities.h"; sourceTree = SOURCE_ROOT; };
+		E2BDAFF813640D3000E24C0B /* GDataUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataUtilities.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/GDataUtilities.m"; sourceTree = SOURCE_ROOT; };
+		E2BDAFF913640D3000E24C0B /* GDataTargetNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataTargetNamespace.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/GDataTargetNamespace.h"; sourceTree = SOURCE_ROOT; };
+		E2BDAFFB13640D3000E24C0B /* GDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataObject.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataObject.h"; sourceTree = SOURCE_ROOT; };
+		E2BDAFFC13640D3000E24C0B /* GDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataObject.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataObject.m"; sourceTree = SOURCE_ROOT; };
+		E2BDAFFD13640D3000E24C0B /* GDataEntryBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryBase.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataEntryBase.h"; sourceTree = SOURCE_ROOT; };
+		E2BDAFFE13640D3000E24C0B /* GDataEntryBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryBase.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataEntryBase.m"; sourceTree = SOURCE_ROOT; };
+		E2BDAFFF13640D3000E24C0B /* GDataFeedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataFeedBase.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataFeedBase.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB00013640D3000E24C0B /* GDataFeedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataFeedBase.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataFeedBase.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB00113640D3000E24C0B /* GDataQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataQuery.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataQuery.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB00213640D3000E24C0B /* GDataQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataQuery.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataQuery.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB00313640D3000E24C0B /* GDataServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataServiceBase.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataServiceBase.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB00413640D3000E24C0B /* GDataServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataServiceBase.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataServiceBase.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB00513640D3000E24C0B /* GDataServiceGoogle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataServiceGoogle.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataServiceGoogle.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB00613640D3000E24C0B /* GDataServiceGoogle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataServiceGoogle.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/BaseClasses/GDataServiceGoogle.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB00813640D3000E24C0B /* GDataElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataElements.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataElements.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB00913640D3000E24C0B /* GDataBaseElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataBaseElements.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBaseElements.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB00A13640D3000E24C0B /* GDataBaseElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataBaseElements.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBaseElements.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB00B13640D3000E24C0B /* GDataAtomPubControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataAtomPubControl.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataAtomPubControl.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB00C13640D3000E24C0B /* GDataAtomPubControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataAtomPubControl.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataAtomPubControl.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB00D13640D3000E24C0B /* GDataLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataLink.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataLink.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB00E13640D3000E24C0B /* GDataLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataLink.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataLink.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB00F13640D3000E24C0B /* GDataPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataPerson.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataPerson.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB01013640D3000E24C0B /* GDataPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataPerson.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataPerson.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB01113640D3000E24C0B /* GDataComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataComment.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataComment.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB01213640D3000E24C0B /* GDataComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataComment.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataComment.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB01313640D3000E24C0B /* GDataCustomProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataCustomProperty.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataCustomProperty.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB01413640D3000E24C0B /* GDataCustomProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataCustomProperty.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataCustomProperty.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB01513640D3000E24C0B /* GDataDocumentElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataDocumentElements.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataDocumentElements.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB01613640D3000E24C0B /* GDataDocumentElements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataDocumentElements.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataDocumentElements.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB01713640D3000E24C0B /* GDataEntryLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryLink.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataEntryLink.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB01813640D3000E24C0B /* GDataEntryLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryLink.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataEntryLink.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB01913640D3000E24C0B /* GDataFeedLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataFeedLink.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataFeedLink.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB01A13640D3000E24C0B /* GDataFeedLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataFeedLink.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataFeedLink.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB01B13640D3000E24C0B /* GDataCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataCategory.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataCategory.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB01C13640D3000E24C0B /* GDataCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataCategory.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataCategory.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB01D13640D3000E24C0B /* GDataDeleted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataDeleted.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataDeleted.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB01E13640D3000E24C0B /* GDataDeleted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataDeleted.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataDeleted.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB01F13640D3000E24C0B /* GDataWho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataWho.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataWho.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB02013640D3000E24C0B /* GDataWho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataWho.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataWho.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB02113640D3000E24C0B /* GDataWhere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataWhere.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataWhere.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB02213640D3000E24C0B /* GDataWhere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataWhere.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataWhere.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB02313640D3000E24C0B /* GDataWhen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataWhen.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataWhen.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB02413640D3000E24C0B /* GDataWhen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataWhen.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataWhen.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB02513640D3000E24C0B /* GDataWhere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataWhere.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataWhere.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB02613640D3000E24C0B /* GDataName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataName.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataName.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB02713640D3000E24C0B /* GDataName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataName.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataName.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB02813640D3000E24C0B /* GDataGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataGenerator.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataGenerator.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB02913640D3000E24C0B /* GDataGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGenerator.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataGenerator.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB02A13640D3000E24C0B /* GDataMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMoney.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataMoney.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB02B13640D3000E24C0B /* GDataMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMoney.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataMoney.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB02C13640D3000E24C0B /* GDataTextConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataTextConstruct.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataTextConstruct.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB02D13640D3000E24C0B /* GDataTextConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataTextConstruct.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataTextConstruct.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB02E13640D3000E24C0B /* GDataValueConstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataValueConstruct.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataValueConstruct.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB02F13640D3000E24C0B /* GDataValueConstruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataValueConstruct.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataValueConstruct.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB03013640D3000E24C0B /* GDataExtendedProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataExtendedProperty.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataExtendedProperty.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB03113640D3000E24C0B /* GDataExtendedProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataExtendedProperty.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataExtendedProperty.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB03213640D3000E24C0B /* GDataEntryContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryContent.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataEntryContent.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB03313640D3000E24C0B /* GDataEntryContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryContent.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataEntryContent.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB03413640D3000E24C0B /* GDataEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEmail.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataEmail.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB03513640D3000E24C0B /* GDataEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEmail.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataEmail.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB03613640D3000E24C0B /* GDataGeoPt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGeoPt.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataGeoPt.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB03713640D3000E24C0B /* GDataGeoPt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataGeoPt.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataGeoPt.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB03813640D3000E24C0B /* GDataIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataIM.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataIM.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB03913640D3000E24C0B /* GDataIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataIM.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataIM.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB03A13640D3000E24C0B /* GDataOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataOrganization.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataOrganization.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB03B13640D3000E24C0B /* GDataOrganization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataOrganization.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataOrganization.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB03C13640D3000E24C0B /* GDataOrganizationName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataOrganizationName.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataOrganizationName.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB03D13640D3000E24C0B /* GDataOrganizationName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataOrganizationName.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataOrganizationName.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB03E13640D3000E24C0B /* GDataPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataPhoneNumber.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataPhoneNumber.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB03F13640D3000E24C0B /* GDataPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataPhoneNumber.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataPhoneNumber.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB04013640D3000E24C0B /* GDataPostalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataPostalAddress.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataPostalAddress.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB04113640D3000E24C0B /* GDataPostalAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataPostalAddress.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataPostalAddress.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB04213640D3000E24C0B /* GDataStructuredPostalAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataStructuredPostalAddress.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataStructuredPostalAddress.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB04313640D3000E24C0B /* GDataStructuredPostalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataStructuredPostalAddress.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataStructuredPostalAddress.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB04413640D3000E24C0B /* GDataRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataRating.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataRating.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB04513640D3000E24C0B /* GDataRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataRating.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataRating.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB04613640D3000E24C0B /* GDataDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataDateTime.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataDateTime.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB04713640D3000E24C0B /* GDataDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataDateTime.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataDateTime.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB04813640D3000E24C0B /* GDataBatchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataBatchOperation.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBatchOperation.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB04913640D3000E24C0B /* GDataBatchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataBatchOperation.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBatchOperation.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB04A13640D3000E24C0B /* GDataBatchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataBatchID.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBatchID.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB04B13640D3000E24C0B /* GDataBatchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataBatchID.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBatchID.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB04C13640D3000E24C0B /* GDataBatchStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataBatchStatus.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBatchStatus.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB04D13640D3000E24C0B /* GDataBatchStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataBatchStatus.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBatchStatus.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB04E13640D3000E24C0B /* GDataBatchInterrupted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataBatchInterrupted.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBatchInterrupted.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB04F13640D3000E24C0B /* GDataBatchInterrupted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataBatchInterrupted.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Elements/GDataBatchInterrupted.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB05113640D3000E24C0B /* GDataHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataHTTPFetcher.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataHTTPFetcher.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB05213640D3000E24C0B /* GDataHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataHTTPFetcher.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataHTTPFetcher.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB05313640D3000E24C0B /* GDataHTTPUploadFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataHTTPUploadFetcher.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataHTTPUploadFetcher.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB05413640D3000E24C0B /* GDataHTTPUploadFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataHTTPUploadFetcher.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataHTTPUploadFetcher.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB05513640D3000E24C0B /* GDataHTTPFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataHTTPFetcherLogging.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataHTTPFetcherLogging.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB05613640D3000E24C0B /* GDataHTTPFetcherLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataHTTPFetcherLogging.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataHTTPFetcherLogging.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB05713640D3000E24C0B /* GDataAuthenticationFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataAuthenticationFetcher.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataAuthenticationFetcher.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB05813640D3000E24C0B /* GDataAuthenticationFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataAuthenticationFetcher.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataAuthenticationFetcher.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB05913640D3000E24C0B /* GDataProgressMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataProgressMonitorInputStream.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataProgressMonitorInputStream.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB05A13640D3000E24C0B /* GDataProgressMonitorInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataProgressMonitorInputStream.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataProgressMonitorInputStream.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB05B13640D3000E24C0B /* GDataGatherInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGatherInputStream.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataGatherInputStream.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB05C13640D3000E24C0B /* GDataGatherInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataGatherInputStream.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataGatherInputStream.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB05D13640D3000E24C0B /* GDataMIMEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMIMEDocument.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataMIMEDocument.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB05E13640D3000E24C0B /* GDataMIMEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMIMEDocument.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataMIMEDocument.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB05F13640D3000E24C0B /* GDataServerError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataServerError.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataServerError.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB06013640D3000E24C0B /* GDataServerError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataServerError.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Networking/GDataServerError.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB06213640D3000E24C0B /* GDataGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGeo.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Geo/GDataGeo.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB06313640D3000E24C0B /* GDataGeo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataGeo.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Geo/GDataGeo.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB06513640D3000E24C0B /* GDataMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMedia.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMedia.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB06613640D3000E24C0B /* GDataNormalPlayTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataNormalPlayTime.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataNormalPlayTime.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB06713640D3000E24C0B /* GDataNormalPlayTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataNormalPlayTime.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataNormalPlayTime.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB06813640D3000E24C0B /* GDataMediaThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMediaThumbnail.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaThumbnail.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB06913640D3000E24C0B /* GDataMediaThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMediaThumbnail.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaThumbnail.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB06A13640D3000E24C0B /* GDataMediaKeywords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMediaKeywords.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaKeywords.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB06B13640D3000E24C0B /* GDataMediaKeywords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMediaKeywords.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaKeywords.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB06C13640D3000E24C0B /* GDataMediaGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMediaGroup.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaGroup.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB06D13640D3000E24C0B /* GDataMediaGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMediaGroup.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaGroup.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB06E13640D3000E24C0B /* GDataMediaContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMediaContent.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaContent.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB06F13640D3000E24C0B /* GDataMediaContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMediaContent.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaContent.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB07013640D3000E24C0B /* GDataMediaCredit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMediaCredit.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaCredit.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB07113640D3000E24C0B /* GDataMediaCredit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMediaCredit.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaCredit.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB07213640D3000E24C0B /* GDataMediaCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMediaCategory.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaCategory.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB07313640D3000E24C0B /* GDataMediaCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMediaCategory.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaCategory.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB07413640D3000E24C0B /* GDataMediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMediaPlayer.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaPlayer.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB07513640D3000E24C0B /* GDataMediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMediaPlayer.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaPlayer.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB07613640D3000E24C0B /* GDataMediaRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMediaRating.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaRating.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB07713640D3000E24C0B /* GDataMediaRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMediaRating.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaRating.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB07813640D3000E24C0B /* GDataMediaRestriction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataMediaRestriction.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaRestriction.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB07913640D3000E24C0B /* GDataMediaRestriction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataMediaRestriction.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Media/GDataMediaRestriction.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB08713640D3000E24C0B /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		E2BDB08813640D3000E24C0B /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		E2BDB08A13640D3000E24C0B /* GDataACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataACL.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataACL.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB08B13640D3000E24C0B /* GDataEntryACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryACL.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataEntryACL.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB08C13640D3000E24C0B /* GDataEntryACL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryACL.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataEntryACL.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB08D13640D3000E24C0B /* GDataFeedACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataFeedACL.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataFeedACL.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB08E13640D3000E24C0B /* GDataFeedACL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataFeedACL.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataFeedACL.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB08F13640D3000E24C0B /* GDataACLScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataACLScope.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataACLScope.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB09013640D3000E24C0B /* GDataACLScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataACLScope.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataACLScope.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB09113640D3000E24C0B /* GDataACLRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataACLRole.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataACLRole.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB09213640D3000E24C0B /* GDataACLRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataACLRole.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataACLRole.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB09313640D3000E24C0B /* GDataACLKeyedRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataACLKeyedRole.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataACLKeyedRole.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB09413640D3000E24C0B /* GDataACLKeyedRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataACLKeyedRole.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataACLKeyedRole.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB09513640D3000E24C0B /* GDataServiceACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataServiceACL.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataServiceACL.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB09613640D3000E24C0B /* GDataServiceACL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataServiceACL.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/ACL/GDataServiceACL.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB09813640D3000E24C0B /* GDataServiceIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataServiceIntrospection.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Introspection/GDataServiceIntrospection.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB09913640D3000E24C0B /* GDataAtomCategoryGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataAtomCategoryGroup.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Introspection/GDataAtomCategoryGroup.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB09A13640D3000E24C0B /* GDataAtomCategoryGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataAtomCategoryGroup.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Introspection/GDataAtomCategoryGroup.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB09B13640D3000E24C0B /* GDataAtomCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataAtomCollection.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Introspection/GDataAtomCollection.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB09C13640D3000E24C0B /* GDataAtomCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataAtomCollection.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Introspection/GDataAtomCollection.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB09D13640D3000E24C0B /* GDataAtomWorkspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataAtomWorkspace.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Introspection/GDataAtomWorkspace.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB09E13640D3000E24C0B /* GDataAtomWorkspace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataAtomWorkspace.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Introspection/GDataAtomWorkspace.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB09F13640D3000E24C0B /* GDataAtomServiceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataAtomServiceDocument.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Introspection/GDataAtomServiceDocument.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB0A013640D3000E24C0B /* GDataAtomServiceDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataAtomServiceDocument.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Introspection/GDataAtomServiceDocument.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB14A13640D3000E24C0B /* GDataDocs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataDocs.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataDocs.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB14B13640D3000E24C0B /* GDataEntryDocBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryDocBase.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryDocBase.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB14C13640D3000E24C0B /* GDataEntryDocBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryDocBase.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryDocBase.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB14D13640D3000E24C0B /* GDataEntryStandardDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryStandardDoc.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryStandardDoc.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB14E13640D3000E24C0B /* GDataEntryStandardDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryStandardDoc.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryStandardDoc.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB14F13640D3000E24C0B /* GDataEntryDrawingDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryDrawingDoc.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryDrawingDoc.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB15013640D3000E24C0B /* GDataEntryDrawingDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryDrawingDoc.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryDrawingDoc.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB15113640D3000E24C0B /* GDataEntryFileDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryFileDoc.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryFileDoc.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB15213640D3000E24C0B /* GDataEntryFileDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryFileDoc.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryFileDoc.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB15313640D3000E24C0B /* GDataEntryPDFDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryPDFDoc.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryPDFDoc.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB15413640D3000E24C0B /* GDataEntryPDFDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryPDFDoc.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryPDFDoc.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB15513640D3000E24C0B /* GDataEntryPresentationDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryPresentationDoc.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryPresentationDoc.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB15613640D3000E24C0B /* GDataEntryPresentationDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryPresentationDoc.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryPresentationDoc.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB15713640D3000E24C0B /* GDataEntrySpreadsheetDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntrySpreadsheetDoc.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntrySpreadsheetDoc.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB15813640D3000E24C0B /* GDataEntrySpreadsheetDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntrySpreadsheetDoc.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntrySpreadsheetDoc.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB15913640D3000E24C0B /* GDataEntryFolderDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryFolderDoc.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryFolderDoc.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB15A13640D3000E24C0B /* GDataEntryFolderDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryFolderDoc.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryFolderDoc.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB15B13640D3000E24C0B /* GDataEntryDocRevision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryDocRevision.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryDocRevision.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB15C13640D3000E24C0B /* GDataEntryDocRevision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryDocRevision.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryDocRevision.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB15D13640D3000E24C0B /* GDataEntryDocListMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryDocListMetadata.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryDocListMetadata.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB15E13640D3000E24C0B /* GDataEntryDocListMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryDocListMetadata.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataEntryDocListMetadata.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB15F13640D3000E24C0B /* GDataFeedDocList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataFeedDocList.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataFeedDocList.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB16013640D3000E24C0B /* GDataFeedDocList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataFeedDocList.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataFeedDocList.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB16113640D3000E24C0B /* GDataFeedDocRevision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataFeedDocRevision.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataFeedDocRevision.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB16213640D3000E24C0B /* GDataFeedDocRevision.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataFeedDocRevision.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataFeedDocRevision.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB16313640D3000E24C0B /* GDataDocConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataDocConstants.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataDocConstants.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB16413640D3000E24C0B /* GDataDocConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataDocConstants.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataDocConstants.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB16513640D3000E24C0B /* GDataDocTransferFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataDocTransferFormat.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataDocTransferFormat.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB16613640D3000E24C0B /* GDataDocTransferFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataDocTransferFormat.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataDocTransferFormat.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB16713640D3000E24C0B /* GDataDocFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataDocFeature.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataDocFeature.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB16813640D3000E24C0B /* GDataDocFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataDocFeature.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataDocFeature.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB16913640D3000E24C0B /* GDataDocMaxUploadSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataDocMaxUploadSize.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataDocMaxUploadSize.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB16A13640D3000E24C0B /* GDataDocMaxUploadSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataDocMaxUploadSize.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataDocMaxUploadSize.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB16B13640D3000E24C0B /* GDataServiceGoogleDocs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataServiceGoogleDocs.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataServiceGoogleDocs.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB16C13640D3000E24C0B /* GDataServiceGoogleDocs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataServiceGoogleDocs.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataServiceGoogleDocs.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB16D13640D3000E24C0B /* GDataQueryDocs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataQueryDocs.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataQueryDocs.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB16E13640D3000E24C0B /* GDataQueryDocs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataQueryDocs.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Docs/GDataQueryDocs.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB18A13640D3000E24C0B /* GDataGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGoogleBase.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBase.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB18B13640D3000E24C0B /* GDataFeedGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataFeedGoogleBase.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataFeedGoogleBase.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB18C13640D3000E24C0B /* GDataFeedGoogleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataFeedGoogleBase.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataFeedGoogleBase.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB18D13640D3000E24C0B /* GDataEntryGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataEntryGoogleBase.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataEntryGoogleBase.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB18E13640D3000E24C0B /* GDataEntryGoogleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataEntryGoogleBase.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataEntryGoogleBase.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB18F13640D3000E24C0B /* GDataQueryGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataQueryGoogleBase.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataQueryGoogleBase.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB19013640D3000E24C0B /* GDataQueryGoogleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataQueryGoogleBase.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataQueryGoogleBase.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB19113640D3000E24C0B /* GDataServiceGoogleBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataServiceGoogleBase.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataServiceGoogleBase.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB19213640D3000E24C0B /* GDataServiceGoogleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataServiceGoogleBase.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataServiceGoogleBase.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB19313640D3000E24C0B /* GDataGoogleBaseAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGoogleBaseAttribute.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseAttribute.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB19413640D3000E24C0B /* GDataGoogleBaseAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataGoogleBaseAttribute.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseAttribute.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB19513640D3000E24C0B /* GDataGoogleBaseMetadataAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGoogleBaseMetadataAttribute.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseMetadataAttribute.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB19613640D3000E24C0B /* GDataGoogleBaseMetadataAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataGoogleBaseMetadataAttribute.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseMetadataAttribute.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB19713640D3000E24C0B /* GDataGoogleBaseMetadataValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGoogleBaseMetadataValue.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseMetadataValue.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB19813640D3000E24C0B /* GDataGoogleBaseMetadataValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataGoogleBaseMetadataValue.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseMetadataValue.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB19913640D3000E24C0B /* GDataGoogleBaseMetadataAttributeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGoogleBaseMetadataAttributeList.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseMetadataAttributeList.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB19A13640D3000E24C0B /* GDataGoogleBaseMetadataAttributeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataGoogleBaseMetadataAttributeList.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseMetadataAttributeList.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB19B13640D3000E24C0B /* GDataGoogleBaseMetadataItemType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataGoogleBaseMetadataItemType.h; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseMetadataItemType.h"; sourceTree = SOURCE_ROOT; };
+		E2BDB19C13640D3000E24C0B /* GDataGoogleBaseMetadataItemType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataGoogleBaseMetadataItemType.m; path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/GoogleBase/GDataGoogleBaseMetadataItemType.m"; sourceTree = SOURCE_ROOT; };
+		E2BDB1E413640D3000E24C0B /* GDataSpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheet.h; sourceTree = "<group>"; };
+		E2BDB1E513640D3000E24C0B /* GDataEntrySpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheet.h; sourceTree = "<group>"; };
+		E2BDB1E613640D3000E24C0B /* GDataEntrySpreadsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySpreadsheet.m; sourceTree = "<group>"; };
+		E2BDB1E713640D3000E24C0B /* GDataEntrySpreadsheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheetCell.h; sourceTree = "<group>"; };
+		E2BDB1E813640D3000E24C0B /* GDataEntrySpreadsheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySpreadsheetCell.m; sourceTree = "<group>"; };
+		E2BDB1E913640D3000E24C0B /* GDataEntrySpreadsheetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheetList.h; sourceTree = "<group>"; };
+		E2BDB1EA13640D3000E24C0B /* GDataEntrySpreadsheetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySpreadsheetList.m; sourceTree = "<group>"; };
+		E2BDB1EB13640D3000E24C0B /* GDataEntrySpreadsheetTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheetTable.h; sourceTree = "<group>"; };
+		E2BDB1EC13640D3000E24C0B /* GDataEntrySpreadsheetTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySpreadsheetTable.m; sourceTree = "<group>"; };
+		E2BDB1ED13640D3000E24C0B /* GDataEntrySpreadsheetRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheetRecord.h; sourceTree = "<group>"; };
+		E2BDB1EE13640D3000E24C0B /* GDataEntrySpreadsheetRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntrySpreadsheetRecord.m; sourceTree = "<group>"; };
+		E2BDB1EF13640D3000E24C0B /* GDataEntryWorksheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataEntryWorksheet.h; sourceTree = "<group>"; };
+		E2BDB1F013640D3000E24C0B /* GDataEntryWorksheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataEntryWorksheet.m; sourceTree = "<group>"; };
+		E2BDB1F113640D3000E24C0B /* GDataFeedSpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSpreadsheet.h; sourceTree = "<group>"; };
+		E2BDB1F213640D3000E24C0B /* GDataFeedSpreadsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSpreadsheet.m; sourceTree = "<group>"; };
+		E2BDB1F313640D3000E24C0B /* GDataFeedSpreadsheetTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSpreadsheetTable.h; sourceTree = "<group>"; };
+		E2BDB1F413640D3000E24C0B /* GDataFeedSpreadsheetTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSpreadsheetTable.m; sourceTree = "<group>"; };
+		E2BDB1F513640D3000E24C0B /* GDataFeedSpreadsheetRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSpreadsheetRecord.m; sourceTree = "<group>"; };
+		E2BDB1F613640D3000E24C0B /* GDataFeedSpreadsheetRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSpreadsheetRecord.h; sourceTree = "<group>"; };
+		E2BDB1F713640D3000E24C0B /* GDataFeedSpreadsheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSpreadsheetCell.h; sourceTree = "<group>"; };
+		E2BDB1F813640D3000E24C0B /* GDataFeedSpreadsheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSpreadsheetCell.m; sourceTree = "<group>"; };
+		E2BDB1F913640D3000E24C0B /* GDataFeedSpreadsheetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedSpreadsheetList.h; sourceTree = "<group>"; };
+		E2BDB1FA13640D3000E24C0B /* GDataFeedSpreadsheetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedSpreadsheetList.m; sourceTree = "<group>"; };
+		E2BDB1FB13640D3000E24C0B /* GDataFeedWorksheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataFeedWorksheet.h; sourceTree = "<group>"; };
+		E2BDB1FC13640D3000E24C0B /* GDataFeedWorksheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataFeedWorksheet.m; sourceTree = "<group>"; };
+		E2BDB1FD13640D3000E24C0B /* GDataSpreadsheetConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheetConstants.h; sourceTree = "<group>"; };
+		E2BDB1FE13640D3000E24C0B /* GDataSpreadsheetConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSpreadsheetConstants.m; sourceTree = "<group>"; };
+		E2BDB1FF13640D3000E24C0B /* GDataSpreadsheetHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheetHeader.h; sourceTree = "<group>"; };
+		E2BDB20013640D3000E24C0B /* GDataSpreadsheetHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSpreadsheetHeader.m; sourceTree = "<group>"; };
+		E2BDB20113640D3000E24C0B /* GDataSpreadsheetColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheetColumn.h; sourceTree = "<group>"; };
+		E2BDB20213640D3000E24C0B /* GDataSpreadsheetColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSpreadsheetColumn.m; sourceTree = "<group>"; };
+		E2BDB20313640D3000E24C0B /* GDataSpreadsheetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheetData.h; sourceTree = "<group>"; };
+		E2BDB20413640D3000E24C0B /* GDataSpreadsheetData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSpreadsheetData.m; sourceTree = "<group>"; };
+		E2BDB20513640D3000E24C0B /* GDataSpreadsheetField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheetField.h; sourceTree = "<group>"; };
+		E2BDB20613640D3000E24C0B /* GDataSpreadsheetField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSpreadsheetField.m; sourceTree = "<group>"; };
+		E2BDB20713640D3000E24C0B /* GDataQuerySpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataQuerySpreadsheet.h; sourceTree = "<group>"; };
+		E2BDB20813640D3000E24C0B /* GDataQuerySpreadsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataQuerySpreadsheet.m; sourceTree = "<group>"; };
+		E2BDB20913640D3000E24C0B /* GDataRowColumnCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataRowColumnCount.h; sourceTree = "<group>"; };
+		E2BDB20A13640D3000E24C0B /* GDataRowColumnCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataRowColumnCount.m; sourceTree = "<group>"; };
+		E2BDB20B13640D3000E24C0B /* GDataServiceGoogleSpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServiceGoogleSpreadsheet.h; sourceTree = "<group>"; };
+		E2BDB20C13640D3000E24C0B /* GDataServiceGoogleSpreadsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServiceGoogleSpreadsheet.m; sourceTree = "<group>"; };
+		E2BDB20D13640D3000E24C0B /* GDataSpreadsheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheetCell.h; sourceTree = "<group>"; };
+		E2BDB20E13640D3000E24C0B /* GDataSpreadsheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSpreadsheetCell.m; sourceTree = "<group>"; };
+		E2BDB20F13640D3000E24C0B /* GDataSpreadsheetCustomElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheetCustomElement.h; sourceTree = "<group>"; };
+		E2BDB21013640D3000E24C0B /* GDataSpreadsheetCustomElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataSpreadsheetCustomElement.m; sourceTree = "<group>"; };
+		E2C9003D13654A7800DF2E18 /* GDFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDFileViewController.h; sourceTree = "<group>"; };
+		E2C9003E13654A7800DF2E18 /* GDFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDFileViewController.m; sourceTree = "<group>"; };
+		E2C9004013654A9400DF2E18 /* GDFileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GDFileViewController.xib; sourceTree = "<group>"; };
+		E2C9004413654BD000DF2E18 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E2C9009A13655C0900DF2E18 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E2C901AE1365AD8A00DF2E18 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		E2C901AF1365AD8A00DF2E18 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		E2C901B01365AD8A00DF2E18 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SearchViewController.xib; path = Classes/SearchViewController.xib; sourceTree = "<group>"; };
+		E2C901DA1365C06C00DF2E18 /* mov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mov.png; sourceTree = "<group>"; };
+		E2C9023B1365D29200DF2E18 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		E2CE42721372783D009D3A3C /* blue-green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue-green.jpg"; sourceTree = "<group>"; };
+		E2CE42731372783D009D3A3C /* blue-pink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue-pink.jpg"; sourceTree = "<group>"; };
+		E2CE42741372783D009D3A3C /* green_circle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_circle.jpg; sourceTree = "<group>"; };
+		E2CE42751372783D009D3A3C /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
+		E2CE427E13727E13009D3A3C /* grenn-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grenn-right.png"; sourceTree = "<group>"; };
+		E2CE428A13727FF3009D3A3C /* blue-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-left.png"; sourceTree = "<group>"; };
+		E2CE431C137291A8009D3A3C /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		E2CE431D137291A8009D3A3C /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		E2CE431E137291A8009D3A3C /* DownloadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DownloadViewController.xib; path = Classes/DownloadViewController.xib; sourceTree = "<group>"; };
+		E2CE44571372ADE1009D3A3C /* SideBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideBanner.png; sourceTree = "<group>"; };
+		E2CE445B1372B03B009D3A3C /* side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side.png; sourceTree = "<group>"; };
+		E2CE448D1372BCB7009D3A3C /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		E2E4167B13607EE2008F449B /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		E2E4167C13607EE2008F449B /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				E2C9004513654BD000DF2E18 /* MediaPlayer.framework in Frameworks */,
+				E2381522136D6D1F00E98211 /* MessageUI.framework in Frameworks */,
+				E275120A137A9815003FAE70 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2751206137A9802003FAE70 /* Reachability.h */,
+				E2751207137A9802003FAE70 /* Reachability.m */,
+				E2C9003D13654A7800DF2E18 /* GDFileViewController.h */,
+				E2C9003E13654A7800DF2E18 /* GDFileViewController.m */,
+				E25AD659135EF3B200505E47 /* SettingsViewController.h */,
+				E25AD65A135EF3B200505E47 /* SettingsViewController.m */,
+				E25AD65B135EF3B200505E47 /* FilesListViewController.h */,
+				E25AD65C135EF3B200505E47 /* FilesListViewController.m */,
+				28AA66D6115C16800003B21C /* RootViewController.h */,
+				28AA66D7115C16800003B21C /* RootViewController.m */,
+				28AA66D4115C16800003B21C /* FirstDetailViewController.h */,
+				28AA66D5115C16800003B21C /* FirstDetailViewController.m */,
+				28AA66D8115C16800003B21C /* SecondDetailViewController.h */,
+				28AA66D9115C16800003B21C /* SecondDetailViewController.m */,
+				28AA66D2115C16800003B21C /* AppDelegate.h */,
+				28AA66D3115C16800003B21C /* AppDelegate.m */,
+				E25ADAE4135F191100505E47 /* LoginViewController.h */,
+				E25ADAE5135F191100505E47 /* LoginViewController.m */,
+				E28A2764136041570046D2DF /* GDataInterface.h */,
+				E28A2765136041570046D2DF /* GDataInterface.m */,
+				E2E4167B13607EE2008F449B /* User.h */,
+				E2E4167C13607EE2008F449B /* User.m */,
+				E2C901AE1365AD8A00DF2E18 /* SearchViewController.h */,
+				E2C901AF1365AD8A00DF2E18 /* SearchViewController.m */,
+				E20CFF7313684A06000E29CF /* DownloadedFile.h */,
+				E20CFF7413684A06000E29CF /* DownloadedFile.m */,
+				E265D2A7137121FD00D6CA5F /* ImageViewController.h */,
+				E265D2A8137121FD00D6CA5F /* ImageViewController.m */,
+				E293CA3313716E8B0028FF86 /* ImageController.h */,
+				E293CA3413716E8B0028FF86 /* ImageController.m */,
+				E2CE431C137291A8009D3A3C /* DownloadViewController.h */,
+				E2CE431D137291A8009D3A3C /* DownloadViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MultipleDetailViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDAFF113640D3000E24C0B /* GData Sources */,
+				28AA66DE115C16850003B21C /* ReadMe.txt */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MultipleDetailViews_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E25AD646135EF39300505E47 /* icons */,
+				E2CE431E137291A8009D3A3C /* DownloadViewController.xib */,
+				E293CA3513716E8B0028FF86 /* ImageController.xib */,
+				E265D2A9137121FD00D6CA5F /* ImageViewController.xib */,
+				E2C9009A13655C0900DF2E18 /* Settings.bundle */,
+				E2C901B01365AD8A00DF2E18 /* SearchViewController.xib */,
+				E2C9004013654A9400DF2E18 /* GDFileViewController.xib */,
+				E25ADAE6135F191100505E47 /* LoginView.xib */,
+				E25AD64E135EF39300505E47 /* FilesListView.xib */,
+				E25AD64F135EF39300505E47 /* SettingsView.xib */,
+				7E9552E811766B410003D25C /* FirstDetailView.xib */,
+				7E9552EA11766B410003D25C /* MainWindow.xib */,
+				7E9552EC11766B410003D25C /* SecondDetailView.xib */,
+				8D1107310486CEB800E47090 /* MultipleDetailViews-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				E2C9004413654BD000DF2E18 /* MediaPlayer.framework */,
+				E2381521136D6D1F00E98211 /* MessageUI.framework */,
+				E2751209137A9815003FAE70 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E25AD646135EF39300505E47 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				E2466E43137BE4F800155438 /* load12.png */,
+				E2466E44137BE4F800155438 /* load11.png */,
+				E2466E45137BE4F800155438 /* load10.png */,
+				E2466E46137BE4F800155438 /* load9.png */,
+				E2466E47137BE4F800155438 /* load8.png */,
+				E2466E48137BE4F800155438 /* load7.png */,
+				E2466E49137BE4F800155438 /* load6.png */,
+				E2466E4A137BE4F800155438 /* load5.png */,
+				E2466E4B137BE4F800155438 /* load4.png */,
+				E2466E4C137BE4F800155438 /* load3.png */,
+				E2466E4D137BE4F800155438 /* load2.png */,
+				E2466E4E137BE4F800155438 /* load1.png */,
+				E2466E2C137BE12E00155438 /* loading.gif */,
+				E27511B4137A815E003FAE70 /* gif.png */,
+				E27511B2137A814B003FAE70 /* 3gp.png */,
+				E2CE448D1372BCB7009D3A3C /* app_icon.png */,
+				E2CE445B1372B03B009D3A3C /* side.png */,
+				E2CE44571372ADE1009D3A3C /* SideBanner.png */,
+				E2CE428A13727FF3009D3A3C /* blue-left.png */,
+				E2CE427E13727E13009D3A3C /* grenn-right.png */,
+				E2CE42721372783D009D3A3C /* blue-green.jpg */,
+				E2CE42731372783D009D3A3C /* blue-pink.jpg */,
+				E2CE42741372783D009D3A3C /* green_circle.jpg */,
+				E2CE42751372783D009D3A3C /* green.jpg */,
+				E293CA5B137173400028FF86 /* Default-LandscapeRight~ipad.png */,
+				E293CA5C137173400028FF86 /* Default-LandscapeLeft~ipad.png */,
+				E292A8B913700B87002168DC /* rtf.png */,
+				E292A827136FE8D9002168DC /* txt.png */,
+				E292A828136FE8D9002168DC /* png.png */,
+				E292A829136FE8D9002168DC /* pdf.png */,
+				E292A82A136FE8D9002168DC /* mail.png */,
+				E292A82B136FE8D9002168DC /* jpg.png */,
+				E292A82C136FE8D9002168DC /* html.png */,
+				E292A82D136FE8D9002168DC /* doc.png */,
+				E292A82E136FE8D9002168DC /* bmp.png */,
+				E292A82F136FE8D9002168DC /* avi.png */,
+				E292A825136FE8A0002168DC /* xls.png */,
+				E2C9023B1365D29200DF2E18 /* download.png */,
+				E2C901DA1365C06C00DF2E18 /* mov.png */,
+				E2A65D37136034A0000CC319 /* Default-Landscape~ipad.png */,
+				E2A65D3113602D43000CC319 /* Default~ipad.png */,
+				E25ADAFC135F1CAD00505E47 /* logo.png */,
+				E25ADAF9135F1C5600505E47 /* banner.jpg */,
+				E25ADAF6135F1A8B00505E47 /* company.jpg */,
+				E25AD649135EF39300505E47 /* ppt.png */,
+				E25AD64B135EF39300505E47 /* folder.png */,
+				E25AD64C135EF39300505E47 /* search_folder.png */,
+				E25AD64D135EF39300505E47 /* settings.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		E2BDAFF113640D3000E24C0B /* GData Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB1E313640D3000E24C0B /* Spreadsheets */,
+				E2BDB18913640D3000E24C0B /* GoogleBase */,
+				E2BDB14913640D3000E24C0B /* Docs */,
+				E2BDAFF213640D3000E24C0B /* Common */,
+			);
+			name = "GData Sources";
+			sourceTree = "<group>";
+		};
+		E2BDAFF213640D3000E24C0B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB07A13640D3000E24C0B /* Optional */,
+				E2BDB06413640D3000E24C0B /* Media (for Photos and YouTube) */,
+				E2BDB06113640D3000E24C0B /* Geo */,
+				E2BDB05013640D3000E24C0B /* Networking */,
+				E2BDB00713640D3000E24C0B /* Elements */,
+				E2BDAFFA13640D3000E24C0B /* BaseClasses */,
+				E2BDAFF313640D3000E24C0B /* GData.h */,
+				E2BDAFF413640D3000E24C0B /* GDataDefines.h */,
+				E2BDAFF513640D3000E24C0B /* GDataFramework.h */,
+				E2BDAFF613640D3000E24C0B /* GDataFramework.m */,
+				E2BDAFF713640D3000E24C0B /* GDataUtilities.h */,
+				E2BDAFF813640D3000E24C0B /* GDataUtilities.m */,
+				E2BDAFF913640D3000E24C0B /* GDataTargetNamespace.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E2BDAFFA13640D3000E24C0B /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDAFFB13640D3000E24C0B /* GDataObject.h */,
+				E2BDAFFC13640D3000E24C0B /* GDataObject.m */,
+				E2BDAFFD13640D3000E24C0B /* GDataEntryBase.h */,
+				E2BDAFFE13640D3000E24C0B /* GDataEntryBase.m */,
+				E2BDAFFF13640D3000E24C0B /* GDataFeedBase.h */,
+				E2BDB00013640D3000E24C0B /* GDataFeedBase.m */,
+				E2BDB00113640D3000E24C0B /* GDataQuery.h */,
+				E2BDB00213640D3000E24C0B /* GDataQuery.m */,
+				E2BDB00313640D3000E24C0B /* GDataServiceBase.h */,
+				E2BDB00413640D3000E24C0B /* GDataServiceBase.m */,
+				E2BDB00513640D3000E24C0B /* GDataServiceGoogle.h */,
+				E2BDB00613640D3000E24C0B /* GDataServiceGoogle.m */,
+			);
+			name = BaseClasses;
+			sourceTree = "<group>";
+		};
+		E2BDB00713640D3000E24C0B /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB00813640D3000E24C0B /* GDataElements.h */,
+				E2BDB00913640D3000E24C0B /* GDataBaseElements.h */,
+				E2BDB00A13640D3000E24C0B /* GDataBaseElements.m */,
+				E2BDB00B13640D3000E24C0B /* GDataAtomPubControl.h */,
+				E2BDB00C13640D3000E24C0B /* GDataAtomPubControl.m */,
+				E2BDB00D13640D3000E24C0B /* GDataLink.h */,
+				E2BDB00E13640D3000E24C0B /* GDataLink.m */,
+				E2BDB00F13640D3000E24C0B /* GDataPerson.h */,
+				E2BDB01013640D3000E24C0B /* GDataPerson.m */,
+				E2BDB01113640D3000E24C0B /* GDataComment.h */,
+				E2BDB01213640D3000E24C0B /* GDataComment.m */,
+				E2BDB01313640D3000E24C0B /* GDataCustomProperty.h */,
+				E2BDB01413640D3000E24C0B /* GDataCustomProperty.m */,
+				E2BDB01513640D3000E24C0B /* GDataDocumentElements.h */,
+				E2BDB01613640D3000E24C0B /* GDataDocumentElements.m */,
+				E2BDB01713640D3000E24C0B /* GDataEntryLink.h */,
+				E2BDB01813640D3000E24C0B /* GDataEntryLink.m */,
+				E2BDB01913640D3000E24C0B /* GDataFeedLink.h */,
+				E2BDB01A13640D3000E24C0B /* GDataFeedLink.m */,
+				E2BDB01B13640D3000E24C0B /* GDataCategory.m */,
+				E2BDB01C13640D3000E24C0B /* GDataCategory.h */,
+				E2BDB01D13640D3000E24C0B /* GDataDeleted.h */,
+				E2BDB01E13640D3000E24C0B /* GDataDeleted.m */,
+				E2BDB01F13640D3000E24C0B /* GDataWho.m */,
+				E2BDB02013640D3000E24C0B /* GDataWho.h */,
+				E2BDB02113640D3000E24C0B /* GDataWhere.h */,
+				E2BDB02213640D3000E24C0B /* GDataWhere.m */,
+				E2BDB02313640D3000E24C0B /* GDataWhen.h */,
+				E2BDB02413640D3000E24C0B /* GDataWhen.m */,
+				E2BDB02513640D3000E24C0B /* GDataWhere.h */,
+				E2BDB02613640D3000E24C0B /* GDataName.m */,
+				E2BDB02713640D3000E24C0B /* GDataName.h */,
+				E2BDB02813640D3000E24C0B /* GDataGenerator.m */,
+				E2BDB02913640D3000E24C0B /* GDataGenerator.h */,
+				E2BDB02A13640D3000E24C0B /* GDataMoney.h */,
+				E2BDB02B13640D3000E24C0B /* GDataMoney.m */,
+				E2BDB02C13640D3000E24C0B /* GDataTextConstruct.h */,
+				E2BDB02D13640D3000E24C0B /* GDataTextConstruct.m */,
+				E2BDB02E13640D3000E24C0B /* GDataValueConstruct.h */,
+				E2BDB02F13640D3000E24C0B /* GDataValueConstruct.m */,
+				E2BDB03013640D3000E24C0B /* GDataExtendedProperty.h */,
+				E2BDB03113640D3000E24C0B /* GDataExtendedProperty.m */,
+				E2BDB03213640D3000E24C0B /* GDataEntryContent.h */,
+				E2BDB03313640D3000E24C0B /* GDataEntryContent.m */,
+				E2BDB03413640D3000E24C0B /* GDataEmail.h */,
+				E2BDB03513640D3000E24C0B /* GDataEmail.m */,
+				E2BDB03613640D3000E24C0B /* GDataGeoPt.h */,
+				E2BDB03713640D3000E24C0B /* GDataGeoPt.m */,
+				E2BDB03813640D3000E24C0B /* GDataIM.h */,
+				E2BDB03913640D3000E24C0B /* GDataIM.m */,
+				E2BDB03A13640D3000E24C0B /* GDataOrganization.h */,
+				E2BDB03B13640D3000E24C0B /* GDataOrganization.m */,
+				E2BDB03C13640D3000E24C0B /* GDataOrganizationName.h */,
+				E2BDB03D13640D3000E24C0B /* GDataOrganizationName.m */,
+				E2BDB03E13640D3000E24C0B /* GDataPhoneNumber.h */,
+				E2BDB03F13640D3000E24C0B /* GDataPhoneNumber.m */,
+				E2BDB04013640D3000E24C0B /* GDataPostalAddress.h */,
+				E2BDB04113640D3000E24C0B /* GDataPostalAddress.m */,
+				E2BDB04213640D3000E24C0B /* GDataStructuredPostalAddress.m */,
+				E2BDB04313640D3000E24C0B /* GDataStructuredPostalAddress.h */,
+				E2BDB04413640D3000E24C0B /* GDataRating.h */,
+				E2BDB04513640D3000E24C0B /* GDataRating.m */,
+				E2BDB04613640D3000E24C0B /* GDataDateTime.h */,
+				E2BDB04713640D3000E24C0B /* GDataDateTime.m */,
+				E2BDB04813640D3000E24C0B /* GDataBatchOperation.h */,
+				E2BDB04913640D3000E24C0B /* GDataBatchOperation.m */,
+				E2BDB04A13640D3000E24C0B /* GDataBatchID.h */,
+				E2BDB04B13640D3000E24C0B /* GDataBatchID.m */,
+				E2BDB04C13640D3000E24C0B /* GDataBatchStatus.h */,
+				E2BDB04D13640D3000E24C0B /* GDataBatchStatus.m */,
+				E2BDB04E13640D3000E24C0B /* GDataBatchInterrupted.h */,
+				E2BDB04F13640D3000E24C0B /* GDataBatchInterrupted.m */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
+		E2BDB05013640D3000E24C0B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB05113640D3000E24C0B /* GDataHTTPFetcher.h */,
+				E2BDB05213640D3000E24C0B /* GDataHTTPFetcher.m */,
+				E2BDB05313640D3000E24C0B /* GDataHTTPUploadFetcher.h */,
+				E2BDB05413640D3000E24C0B /* GDataHTTPUploadFetcher.m */,
+				E2BDB05513640D3000E24C0B /* GDataHTTPFetcherLogging.h */,
+				E2BDB05613640D3000E24C0B /* GDataHTTPFetcherLogging.m */,
+				E2BDB05713640D3000E24C0B /* GDataAuthenticationFetcher.h */,
+				E2BDB05813640D3000E24C0B /* GDataAuthenticationFetcher.m */,
+				E2BDB05913640D3000E24C0B /* GDataProgressMonitorInputStream.h */,
+				E2BDB05A13640D3000E24C0B /* GDataProgressMonitorInputStream.m */,
+				E2BDB05B13640D3000E24C0B /* GDataGatherInputStream.h */,
+				E2BDB05C13640D3000E24C0B /* GDataGatherInputStream.m */,
+				E2BDB05D13640D3000E24C0B /* GDataMIMEDocument.h */,
+				E2BDB05E13640D3000E24C0B /* GDataMIMEDocument.m */,
+				E2BDB05F13640D3000E24C0B /* GDataServerError.h */,
+				E2BDB06013640D3000E24C0B /* GDataServerError.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		E2BDB06113640D3000E24C0B /* Geo */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB06213640D3000E24C0B /* GDataGeo.h */,
+				E2BDB06313640D3000E24C0B /* GDataGeo.m */,
+			);
+			name = Geo;
+			sourceTree = "<group>";
+		};
+		E2BDB06413640D3000E24C0B /* Media (for Photos and YouTube) */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB06513640D3000E24C0B /* GDataMedia.h */,
+				E2BDB06613640D3000E24C0B /* GDataNormalPlayTime.m */,
+				E2BDB06713640D3000E24C0B /* GDataNormalPlayTime.h */,
+				E2BDB06813640D3000E24C0B /* GDataMediaThumbnail.m */,
+				E2BDB06913640D3000E24C0B /* GDataMediaThumbnail.h */,
+				E2BDB06A13640D3000E24C0B /* GDataMediaKeywords.m */,
+				E2BDB06B13640D3000E24C0B /* GDataMediaKeywords.h */,
+				E2BDB06C13640D3000E24C0B /* GDataMediaGroup.m */,
+				E2BDB06D13640D3000E24C0B /* GDataMediaGroup.h */,
+				E2BDB06E13640D3000E24C0B /* GDataMediaContent.m */,
+				E2BDB06F13640D3000E24C0B /* GDataMediaContent.h */,
+				E2BDB07013640D3000E24C0B /* GDataMediaCredit.m */,
+				E2BDB07113640D3000E24C0B /* GDataMediaCredit.h */,
+				E2BDB07213640D3000E24C0B /* GDataMediaCategory.h */,
+				E2BDB07313640D3000E24C0B /* GDataMediaCategory.m */,
+				E2BDB07413640D3000E24C0B /* GDataMediaPlayer.h */,
+				E2BDB07513640D3000E24C0B /* GDataMediaPlayer.m */,
+				E2BDB07613640D3000E24C0B /* GDataMediaRating.h */,
+				E2BDB07713640D3000E24C0B /* GDataMediaRating.m */,
+				E2BDB07813640D3000E24C0B /* GDataMediaRestriction.h */,
+				E2BDB07913640D3000E24C0B /* GDataMediaRestriction.m */,
+			);
+			name = "Media (for Photos and YouTube)";
+			sourceTree = "<group>";
+		};
+		E2BDB07A13640D3000E24C0B /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB09713640D3000E24C0B /* Service Introspection */,
+				E2BDB08913640D3000E24C0B /* ACL */,
+				E2BDB08613640D3000E24C0B /* XMLSupport */,
+			);
+			name = Optional;
+			sourceTree = "<group>";
+		};
+		E2BDB08613640D3000E24C0B /* XMLSupport */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB08713640D3000E24C0B /* GDataXMLNode.h */,
+				E2BDB08813640D3000E24C0B /* GDataXMLNode.m */,
+			);
+			name = XMLSupport;
+			path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/XMLSupport";
+			sourceTree = SOURCE_ROOT;
+		};
+		E2BDB08913640D3000E24C0B /* ACL */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB08A13640D3000E24C0B /* GDataACL.h */,
+				E2BDB08B13640D3000E24C0B /* GDataEntryACL.h */,
+				E2BDB08C13640D3000E24C0B /* GDataEntryACL.m */,
+				E2BDB08D13640D3000E24C0B /* GDataFeedACL.h */,
+				E2BDB08E13640D3000E24C0B /* GDataFeedACL.m */,
+				E2BDB08F13640D3000E24C0B /* GDataACLScope.h */,
+				E2BDB09013640D3000E24C0B /* GDataACLScope.m */,
+				E2BDB09113640D3000E24C0B /* GDataACLRole.h */,
+				E2BDB09213640D3000E24C0B /* GDataACLRole.m */,
+				E2BDB09313640D3000E24C0B /* GDataACLKeyedRole.h */,
+				E2BDB09413640D3000E24C0B /* GDataACLKeyedRole.m */,
+				E2BDB09513640D3000E24C0B /* GDataServiceACL.h */,
+				E2BDB09613640D3000E24C0B /* GDataServiceACL.m */,
+			);
+			name = ACL;
+			sourceTree = "<group>";
+		};
+		E2BDB09713640D3000E24C0B /* Service Introspection */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB09813640D3000E24C0B /* GDataServiceIntrospection.h */,
+				E2BDB09913640D3000E24C0B /* GDataAtomCategoryGroup.h */,
+				E2BDB09A13640D3000E24C0B /* GDataAtomCategoryGroup.m */,
+				E2BDB09B13640D3000E24C0B /* GDataAtomCollection.h */,
+				E2BDB09C13640D3000E24C0B /* GDataAtomCollection.m */,
+				E2BDB09D13640D3000E24C0B /* GDataAtomWorkspace.h */,
+				E2BDB09E13640D3000E24C0B /* GDataAtomWorkspace.m */,
+				E2BDB09F13640D3000E24C0B /* GDataAtomServiceDocument.h */,
+				E2BDB0A013640D3000E24C0B /* GDataAtomServiceDocument.m */,
+			);
+			name = "Service Introspection";
+			sourceTree = "<group>";
+		};
+		E2BDB14913640D3000E24C0B /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB14A13640D3000E24C0B /* GDataDocs.h */,
+				E2BDB14B13640D3000E24C0B /* GDataEntryDocBase.h */,
+				E2BDB14C13640D3000E24C0B /* GDataEntryDocBase.m */,
+				E2BDB14D13640D3000E24C0B /* GDataEntryStandardDoc.h */,
+				E2BDB14E13640D3000E24C0B /* GDataEntryStandardDoc.m */,
+				E2BDB14F13640D3000E24C0B /* GDataEntryDrawingDoc.h */,
+				E2BDB15013640D3000E24C0B /* GDataEntryDrawingDoc.m */,
+				E2BDB15113640D3000E24C0B /* GDataEntryFileDoc.h */,
+				E2BDB15213640D3000E24C0B /* GDataEntryFileDoc.m */,
+				E2BDB15313640D3000E24C0B /* GDataEntryPDFDoc.h */,
+				E2BDB15413640D3000E24C0B /* GDataEntryPDFDoc.m */,
+				E2BDB15513640D3000E24C0B /* GDataEntryPresentationDoc.h */,
+				E2BDB15613640D3000E24C0B /* GDataEntryPresentationDoc.m */,
+				E2BDB15713640D3000E24C0B /* GDataEntrySpreadsheetDoc.h */,
+				E2BDB15813640D3000E24C0B /* GDataEntrySpreadsheetDoc.m */,
+				E2BDB15913640D3000E24C0B /* GDataEntryFolderDoc.h */,
+				E2BDB15A13640D3000E24C0B /* GDataEntryFolderDoc.m */,
+				E2BDB15B13640D3000E24C0B /* GDataEntryDocRevision.h */,
+				E2BDB15C13640D3000E24C0B /* GDataEntryDocRevision.m */,
+				E2BDB15D13640D3000E24C0B /* GDataEntryDocListMetadata.h */,
+				E2BDB15E13640D3000E24C0B /* GDataEntryDocListMetadata.m */,
+				E2BDB15F13640D3000E24C0B /* GDataFeedDocList.h */,
+				E2BDB16013640D3000E24C0B /* GDataFeedDocList.m */,
+				E2BDB16113640D3000E24C0B /* GDataFeedDocRevision.h */,
+				E2BDB16213640D3000E24C0B /* GDataFeedDocRevision.m */,
+				E2BDB16313640D3000E24C0B /* GDataDocConstants.h */,
+				E2BDB16413640D3000E24C0B /* GDataDocConstants.m */,
+				E2BDB16513640D3000E24C0B /* GDataDocTransferFormat.h */,
+				E2BDB16613640D3000E24C0B /* GDataDocTransferFormat.m */,
+				E2BDB16713640D3000E24C0B /* GDataDocFeature.h */,
+				E2BDB16813640D3000E24C0B /* GDataDocFeature.m */,
+				E2BDB16913640D3000E24C0B /* GDataDocMaxUploadSize.h */,
+				E2BDB16A13640D3000E24C0B /* GDataDocMaxUploadSize.m */,
+				E2BDB16B13640D3000E24C0B /* GDataServiceGoogleDocs.h */,
+				E2BDB16C13640D3000E24C0B /* GDataServiceGoogleDocs.m */,
+				E2BDB16D13640D3000E24C0B /* GDataQueryDocs.m */,
+				E2BDB16E13640D3000E24C0B /* GDataQueryDocs.h */,
+			);
+			name = Docs;
+			sourceTree = "<group>";
+		};
+		E2BDB18913640D3000E24C0B /* GoogleBase */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB18A13640D3000E24C0B /* GDataGoogleBase.h */,
+				E2BDB18B13640D3000E24C0B /* GDataFeedGoogleBase.h */,
+				E2BDB18C13640D3000E24C0B /* GDataFeedGoogleBase.m */,
+				E2BDB18D13640D3000E24C0B /* GDataEntryGoogleBase.h */,
+				E2BDB18E13640D3000E24C0B /* GDataEntryGoogleBase.m */,
+				E2BDB18F13640D3000E24C0B /* GDataQueryGoogleBase.h */,
+				E2BDB19013640D3000E24C0B /* GDataQueryGoogleBase.m */,
+				E2BDB19113640D3000E24C0B /* GDataServiceGoogleBase.h */,
+				E2BDB19213640D3000E24C0B /* GDataServiceGoogleBase.m */,
+				E2BDB19313640D3000E24C0B /* GDataGoogleBaseAttribute.h */,
+				E2BDB19413640D3000E24C0B /* GDataGoogleBaseAttribute.m */,
+				E2BDB19513640D3000E24C0B /* GDataGoogleBaseMetadataAttribute.h */,
+				E2BDB19613640D3000E24C0B /* GDataGoogleBaseMetadataAttribute.m */,
+				E2BDB19713640D3000E24C0B /* GDataGoogleBaseMetadataValue.h */,
+				E2BDB19813640D3000E24C0B /* GDataGoogleBaseMetadataValue.m */,
+				E2BDB19913640D3000E24C0B /* GDataGoogleBaseMetadataAttributeList.h */,
+				E2BDB19A13640D3000E24C0B /* GDataGoogleBaseMetadataAttributeList.m */,
+				E2BDB19B13640D3000E24C0B /* GDataGoogleBaseMetadataItemType.h */,
+				E2BDB19C13640D3000E24C0B /* GDataGoogleBaseMetadataItemType.m */,
+			);
+			name = GoogleBase;
+			sourceTree = "<group>";
+		};
+		E2BDB1E313640D3000E24C0B /* Spreadsheets */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDB1E413640D3000E24C0B /* GDataSpreadsheet.h */,
+				E2BDB1E513640D3000E24C0B /* GDataEntrySpreadsheet.h */,
+				E2BDB1E613640D3000E24C0B /* GDataEntrySpreadsheet.m */,
+				E2BDB1E713640D3000E24C0B /* GDataEntrySpreadsheetCell.h */,
+				E2BDB1E813640D3000E24C0B /* GDataEntrySpreadsheetCell.m */,
+				E2BDB1E913640D3000E24C0B /* GDataEntrySpreadsheetList.h */,
+				E2BDB1EA13640D3000E24C0B /* GDataEntrySpreadsheetList.m */,
+				E2BDB1EB13640D3000E24C0B /* GDataEntrySpreadsheetTable.h */,
+				E2BDB1EC13640D3000E24C0B /* GDataEntrySpreadsheetTable.m */,
+				E2BDB1ED13640D3000E24C0B /* GDataEntrySpreadsheetRecord.h */,
+				E2BDB1EE13640D3000E24C0B /* GDataEntrySpreadsheetRecord.m */,
+				E2BDB1EF13640D3000E24C0B /* GDataEntryWorksheet.h */,
+				E2BDB1F013640D3000E24C0B /* GDataEntryWorksheet.m */,
+				E2BDB1F113640D3000E24C0B /* GDataFeedSpreadsheet.h */,
+				E2BDB1F213640D3000E24C0B /* GDataFeedSpreadsheet.m */,
+				E2BDB1F313640D3000E24C0B /* GDataFeedSpreadsheetTable.h */,
+				E2BDB1F413640D3000E24C0B /* GDataFeedSpreadsheetTable.m */,
+				E2BDB1F513640D3000E24C0B /* GDataFeedSpreadsheetRecord.m */,
+				E2BDB1F613640D3000E24C0B /* GDataFeedSpreadsheetRecord.h */,
+				E2BDB1F713640D3000E24C0B /* GDataFeedSpreadsheetCell.h */,
+				E2BDB1F813640D3000E24C0B /* GDataFeedSpreadsheetCell.m */,
+				E2BDB1F913640D3000E24C0B /* GDataFeedSpreadsheetList.h */,
+				E2BDB1FA13640D3000E24C0B /* GDataFeedSpreadsheetList.m */,
+				E2BDB1FB13640D3000E24C0B /* GDataFeedWorksheet.h */,
+				E2BDB1FC13640D3000E24C0B /* GDataFeedWorksheet.m */,
+				E2BDB1FD13640D3000E24C0B /* GDataSpreadsheetConstants.h */,
+				E2BDB1FE13640D3000E24C0B /* GDataSpreadsheetConstants.m */,
+				E2BDB1FF13640D3000E24C0B /* GDataSpreadsheetHeader.h */,
+				E2BDB20013640D3000E24C0B /* GDataSpreadsheetHeader.m */,
+				E2BDB20113640D3000E24C0B /* GDataSpreadsheetColumn.h */,
+				E2BDB20213640D3000E24C0B /* GDataSpreadsheetColumn.m */,
+				E2BDB20313640D3000E24C0B /* GDataSpreadsheetData.h */,
+				E2BDB20413640D3000E24C0B /* GDataSpreadsheetData.m */,
+				E2BDB20513640D3000E24C0B /* GDataSpreadsheetField.h */,
+				E2BDB20613640D3000E24C0B /* GDataSpreadsheetField.m */,
+				E2BDB20713640D3000E24C0B /* GDataQuerySpreadsheet.h */,
+				E2BDB20813640D3000E24C0B /* GDataQuerySpreadsheet.m */,
+				E2BDB20913640D3000E24C0B /* GDataRowColumnCount.h */,
+				E2BDB20A13640D3000E24C0B /* GDataRowColumnCount.m */,
+				E2BDB20B13640D3000E24C0B /* GDataServiceGoogleSpreadsheet.h */,
+				E2BDB20C13640D3000E24C0B /* GDataServiceGoogleSpreadsheet.m */,
+				E2BDB20D13640D3000E24C0B /* GDataSpreadsheetCell.h */,
+				E2BDB20E13640D3000E24C0B /* GDataSpreadsheetCell.m */,
+				E2BDB20F13640D3000E24C0B /* GDataSpreadsheetCustomElement.h */,
+				E2BDB21013640D3000E24C0B /* GDataSpreadsheetCustomElement.m */,
+			);
+			name = Spreadsheets;
+			path = "../../../gdata-objectivec-client-1.11.0 (1)/Source/Clients/Spreadsheets";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MultipleDetailViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MultipleDetailViews" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleDetailViews;
+			productName = MultipleDetailViews;
+			productReference = 1D6058910D05DD3D006BFB54 /* MultipleDetailViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MultipleDetailViews" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MultipleDetailViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AA66DF115C16850003B21C /* ReadMe.txt in Resources */,
+				7E9552EE11766B410003D25C /* FirstDetailView.xib in Resources */,
+				7E9552EF11766B410003D25C /* MainWindow.xib in Resources */,
+				7E9552F011766B410003D25C /* SecondDetailView.xib in Resources */,
+				E25AD652135EF39300505E47 /* ppt.png in Resources */,
+				E25AD654135EF39300505E47 /* folder.png in Resources */,
+				E25AD655135EF39300505E47 /* search_folder.png in Resources */,
+				E25AD656135EF39300505E47 /* settings.png in Resources */,
+				E25AD657135EF39300505E47 /* FilesListView.xib in Resources */,
+				E25AD658135EF39300505E47 /* SettingsView.xib in Resources */,
+				E25ADAE8135F191100505E47 /* LoginView.xib in Resources */,
+				E25ADAF7135F1A8B00505E47 /* company.jpg in Resources */,
+				E25ADAFA135F1C5600505E47 /* banner.jpg in Resources */,
+				E25ADAFD135F1CAD00505E47 /* logo.png in Resources */,
+				E2A65D3213602D43000CC319 /* Default~ipad.png in Resources */,
+				E2A65D38136034A0000CC319 /* Default-Landscape~ipad.png in Resources */,
+				E2C9004113654A9400DF2E18 /* GDFileViewController.xib in Resources */,
+				E2C9009B13655C0900DF2E18 /* Settings.bundle in Resources */,
+				E2C901B21365AD8A00DF2E18 /* SearchViewController.xib in Resources */,
+				E2C901DB1365C06C00DF2E18 /* mov.png in Resources */,
+				E2C9023C1365D29200DF2E18 /* download.png in Resources */,
+				E292A826136FE8A0002168DC /* xls.png in Resources */,
+				E292A830136FE8D9002168DC /* txt.png in Resources */,
+				E292A831136FE8D9002168DC /* png.png in Resources */,
+				E292A832136FE8D9002168DC /* pdf.png in Resources */,
+				E292A833136FE8D9002168DC /* mail.png in Resources */,
+				E292A834136FE8D9002168DC /* jpg.png in Resources */,
+				E292A835136FE8D9002168DC /* html.png in Resources */,
+				E292A836136FE8D9002168DC /* doc.png in Resources */,
+				E292A837136FE8D9002168DC /* bmp.png in Resources */,
+				E292A838136FE8D9002168DC /* avi.png in Resources */,
+				E292A8BA13700B87002168DC /* rtf.png in Resources */,
+				E265D2AB137121FD00D6CA5F /* ImageViewController.xib in Resources */,
+				E293CA3713716E8B0028FF86 /* ImageController.xib in Resources */,
+				E293CA5D137173400028FF86 /* Default-LandscapeRight~ipad.png in Resources */,
+				E293CA5E137173400028FF86 /* Default-LandscapeLeft~ipad.png in Resources */,
+				E2CE42761372783D009D3A3C /* blue-green.jpg in Resources */,
+				E2CE42771372783D009D3A3C /* blue-pink.jpg in Resources */,
+				E2CE42781372783D009D3A3C /* green_circle.jpg in Resources */,
+				E2CE42791372783D009D3A3C /* green.jpg in Resources */,
+				E2CE427F13727E13009D3A3C /* grenn-right.png in Resources */,
+				E2CE428B13727FF3009D3A3C /* blue-left.png in Resources */,
+				E2CE4320137291A8009D3A3C /* DownloadViewController.xib in Resources */,
+				E2CE44581372ADE1009D3A3C /* SideBanner.png in Resources */,
+				E2CE445C1372B03B009D3A3C /* side.png in Resources */,
+				E2CE448E1372BCB7009D3A3C /* app_icon.png in Resources */,
+				E27511B3137A814B003FAE70 /* 3gp.png in Resources */,
+				E27511B5137A815E003FAE70 /* gif.png in Resources */,
+				E2466E2D137BE12E00155438 /* loading.gif in Resources */,
+				E2466E4F137BE4F800155438 /* load12.png in Resources */,
+				E2466E50137BE4F800155438 /* load11.png in Resources */,
+				E2466E51137BE4F800155438 /* load10.png in Resources */,
+				E2466E52137BE4F800155438 /* load9.png in Resources */,
+				E2466E53137BE4F800155438 /* load8.png in Resources */,
+				E2466E54137BE4F800155438 /* load7.png in Resources */,
+				E2466E55137BE4F800155438 /* load6.png in Resources */,
+				E2466E56137BE4F800155438 /* load5.png in Resources */,
+				E2466E57137BE4F800155438 /* load4.png in Resources */,
+				E2466E58137BE4F800155438 /* load3.png in Resources */,
+				E2466E59137BE4F800155438 /* load2.png in Resources */,
+				E2466E5A137BE4F800155438 /* load1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				28AA66DA115C16800003B21C /* AppDelegate.m in Sources */,
+				28AA66DB115C16800003B21C /* FirstDetailViewController.m in Sources */,
+				28AA66DC115C16800003B21C /* RootViewController.m in Sources */,
+				28AA66DD115C16800003B21C /* SecondDetailViewController.m in Sources */,
+				E25AD65D135EF3B200505E47 /* SettingsViewController.m in Sources */,
+				E25AD65E135EF3B200505E47 /* FilesListViewController.m in Sources */,
+				E25ADAE7135F191100505E47 /* LoginViewController.m in Sources */,
+				E28A2766136041570046D2DF /* GDataInterface.m in Sources */,
+				E2E4167D13607EE2008F449B /* User.m in Sources */,
+				E2BDB29913640D3100E24C0B /* GDataFramework.m in Sources */,
+				E2BDB29A13640D3100E24C0B /* GDataUtilities.m in Sources */,
+				E2BDB29B13640D3100E24C0B /* GDataObject.m in Sources */,
+				E2BDB29C13640D3100E24C0B /* GDataEntryBase.m in Sources */,
+				E2BDB29D13640D3100E24C0B /* GDataFeedBase.m in Sources */,
+				E2BDB29E13640D3100E24C0B /* GDataQuery.m in Sources */,
+				E2BDB29F13640D3100E24C0B /* GDataServiceBase.m in Sources */,
+				E2BDB2A013640D3100E24C0B /* GDataServiceGoogle.m in Sources */,
+				E2BDB2A113640D3100E24C0B /* GDataBaseElements.m in Sources */,
+				E2BDB2A213640D3100E24C0B /* GDataAtomPubControl.m in Sources */,
+				E2BDB2A313640D3100E24C0B /* GDataLink.m in Sources */,
+				E2BDB2A413640D3100E24C0B /* GDataPerson.m in Sources */,
+				E2BDB2A513640D3100E24C0B /* GDataComment.m in Sources */,
+				E2BDB2A613640D3100E24C0B /* GDataCustomProperty.m in Sources */,
+				E2BDB2A713640D3100E24C0B /* GDataDocumentElements.m in Sources */,
+				E2BDB2A813640D3100E24C0B /* GDataEntryLink.m in Sources */,
+				E2BDB2A913640D3100E24C0B /* GDataFeedLink.m in Sources */,
+				E2BDB2AA13640D3100E24C0B /* GDataCategory.m in Sources */,
+				E2BDB2AB13640D3100E24C0B /* GDataDeleted.m in Sources */,
+				E2BDB2AC13640D3100E24C0B /* GDataWho.m in Sources */,
+				E2BDB2AD13640D3100E24C0B /* GDataWhere.m in Sources */,
+				E2BDB2AE13640D3100E24C0B /* GDataWhen.m in Sources */,
+				E2BDB2AF13640D3100E24C0B /* GDataName.m in Sources */,
+				E2BDB2B013640D3100E24C0B /* GDataGenerator.m in Sources */,
+				E2BDB2B113640D3100E24C0B /* GDataMoney.m in Sources */,
+				E2BDB2B213640D3100E24C0B /* GDataTextConstruct.m in Sources */,
+				E2BDB2B313640D3100E24C0B /* GDataValueConstruct.m in Sources */,
+				E2BDB2B413640D3100E24C0B /* GDataExtendedProperty.m in Sources */,
+				E2BDB2B513640D3100E24C0B /* GDataEntryContent.m in Sources */,
+				E2BDB2B613640D3100E24C0B /* GDataEmail.m in Sources */,
+				E2BDB2B713640D3100E24C0B /* GDataGeoPt.m in Sources */,
+				E2BDB2B813640D3100E24C0B /* GDataIM.m in Sources */,
+				E2BDB2B913640D3100E24C0B /* GDataOrganization.m in Sources */,
+				E2BDB2BA13640D3100E24C0B /* GDataOrganizationName.m in Sources */,
+				E2BDB2BB13640D3100E24C0B /* GDataPhoneNumber.m in Sources */,
+				E2BDB2BC13640D3100E24C0B /* GDataPostalAddress.m in Sources */,
+				E2BDB2BD13640D3100E24C0B /* GDataStructuredPostalAddress.m in Sources */,
+				E2BDB2BE13640D3100E24C0B /* GDataRating.m in Sources */,
+				E2BDB2BF13640D3100E24C0B /* GDataDateTime.m in Sources */,
+				E2BDB2C013640D3100E24C0B /* GDataBatchOperation.m in Sources */,
+				E2BDB2C113640D3100E24C0B /* GDataBatchID.m in Sources */,
+				E2BDB2C213640D3100E24C0B /* GDataBatchStatus.m in Sources */,
+				E2BDB2C313640D3100E24C0B /* GDataBatchInterrupted.m in Sources */,
+				E2BDB2C413640D3100E24C0B /* GDataHTTPFetcher.m in Sources */,
+				E2BDB2C513640D3100E24C0B /* GDataHTTPUploadFetcher.m in Sources */,
+				E2BDB2C613640D3100E24C0B /* GDataHTTPFetcherLogging.m in Sources */,
+				E2BDB2C713640D3100E24C0B /* GDataAuthenticationFetcher.m in Sources */,
+				E2BDB2C813640D3100E24C0B /* GDataProgressMonitorInputStream.m in Sources */,
+				E2BDB2C913640D3100E24C0B /* GDataGatherInputStream.m in Sources */,
+				E2BDB2CA13640D3100E24C0B /* GDataMIMEDocument.m in Sources */,
+				E2BDB2CB13640D3100E24C0B /* GDataServerError.m in Sources */,
+				E2BDB2CC13640D3100E24C0B /* GDataGeo.m in Sources */,
+				E2BDB2CD13640D3100E24C0B /* GDataNormalPlayTime.m in Sources */,
+				E2BDB2CE13640D3100E24C0B /* GDataMediaThumbnail.m in Sources */,
+				E2BDB2CF13640D3100E24C0B /* GDataMediaKeywords.m in Sources */,
+				E2BDB2D013640D3100E24C0B /* GDataMediaGroup.m in Sources */,
+				E2BDB2D113640D3100E24C0B /* GDataMediaContent.m in Sources */,
+				E2BDB2D213640D3100E24C0B /* GDataMediaCredit.m in Sources */,
+				E2BDB2D313640D3100E24C0B /* GDataMediaCategory.m in Sources */,
+				E2BDB2D413640D3100E24C0B /* GDataMediaPlayer.m in Sources */,
+				E2BDB2D513640D3100E24C0B /* GDataMediaRating.m in Sources */,
+				E2BDB2D613640D3100E24C0B /* GDataMediaRestriction.m in Sources */,
+				E2BDB2DD13640D3100E24C0B /* GDataXMLNode.m in Sources */,
+				E2BDB2DE13640D3100E24C0B /* GDataEntryACL.m in Sources */,
+				E2BDB2DF13640D3100E24C0B /* GDataFeedACL.m in Sources */,
+				E2BDB2E013640D3100E24C0B /* GDataACLScope.m in Sources */,
+				E2BDB2E113640D3100E24C0B /* GDataACLRole.m in Sources */,
+				E2BDB2E213640D3100E24C0B /* GDataACLKeyedRole.m in Sources */,
+				E2BDB2E313640D3100E24C0B /* GDataServiceACL.m in Sources */,
+				E2BDB2E413640D3100E24C0B /* GDataAtomCategoryGroup.m in Sources */,
+				E2BDB2E513640D3100E24C0B /* GDataAtomCollection.m in Sources */,
+				E2BDB2E613640D3100E24C0B /* GDataAtomWorkspace.m in Sources */,
+				E2BDB2E713640D3100E24C0B /* GDataAtomServiceDocument.m in Sources */,
+				E2BDB33613640D3100E24C0B /* GDataEntryDocBase.m in Sources */,
+				E2BDB33713640D3100E24C0B /* GDataEntryStandardDoc.m in Sources */,
+				E2BDB33813640D3100E24C0B /* GDataEntryDrawingDoc.m in Sources */,
+				E2BDB33913640D3100E24C0B /* GDataEntryFileDoc.m in Sources */,
+				E2BDB33A13640D3100E24C0B /* GDataEntryPDFDoc.m in Sources */,
+				E2BDB33B13640D3100E24C0B /* GDataEntryPresentationDoc.m in Sources */,
+				E2BDB33C13640D3100E24C0B /* GDataEntrySpreadsheetDoc.m in Sources */,
+				E2BDB33D13640D3100E24C0B /* GDataEntryFolderDoc.m in Sources */,
+				E2BDB33E13640D3100E24C0B /* GDataEntryDocRevision.m in Sources */,
+				E2BDB33F13640D3100E24C0B /* GDataEntryDocListMetadata.m in Sources */,
+				E2BDB34013640D3100E24C0B /* GDataFeedDocList.m in Sources */,
+				E2BDB34113640D3100E24C0B /* GDataFeedDocRevision.m in Sources */,
+				E2BDB34213640D3100E24C0B /* GDataDocConstants.m in Sources */,
+				E2BDB34313640D3100E24C0B /* GDataDocTransferFormat.m in Sources */,
+				E2BDB34413640D3100E24C0B /* GDataDocFeature.m in Sources */,
+				E2BDB34513640D3100E24C0B /* GDataDocMaxUploadSize.m in Sources */,
+				E2BDB34613640D3100E24C0B /* GDataServiceGoogleDocs.m in Sources */,
+				E2BDB34713640D3100E24C0B /* GDataQueryDocs.m in Sources */,
+				E2BDB35413640D3100E24C0B /* GDataFeedGoogleBase.m in Sources */,
+				E2BDB35513640D3100E24C0B /* GDataEntryGoogleBase.m in Sources */,
+				E2BDB35613640D3100E24C0B /* GDataQueryGoogleBase.m in Sources */,
+				E2BDB35713640D3100E24C0B /* GDataServiceGoogleBase.m in Sources */,
+				E2BDB35813640D3100E24C0B /* GDataGoogleBaseAttribute.m in Sources */,
+				E2BDB35913640D3100E24C0B /* GDataGoogleBaseMetadataAttribute.m in Sources */,
+				E2BDB35A13640D3100E24C0B /* GDataGoogleBaseMetadataValue.m in Sources */,
+				E2BDB35B13640D3100E24C0B /* GDataGoogleBaseMetadataAttributeList.m in Sources */,
+				E2BDB35C13640D3100E24C0B /* GDataGoogleBaseMetadataItemType.m in Sources */,
+				E2BDB37D13640D3100E24C0B /* GDataEntrySpreadsheet.m in Sources */,
+				E2BDB37E13640D3100E24C0B /* GDataEntrySpreadsheetCell.m in Sources */,
+				E2BDB37F13640D3100E24C0B /* GDataEntrySpreadsheetList.m in Sources */,
+				E2BDB38013640D3100E24C0B /* GDataEntrySpreadsheetTable.m in Sources */,
+				E2BDB38113640D3100E24C0B /* GDataEntrySpreadsheetRecord.m in Sources */,
+				E2BDB38213640D3100E24C0B /* GDataEntryWorksheet.m in Sources */,
+				E2BDB38313640D3100E24C0B /* GDataFeedSpreadsheet.m in Sources */,
+				E2BDB38413640D3100E24C0B /* GDataFeedSpreadsheetTable.m in Sources */,
+				E2BDB38513640D3100E24C0B /* GDataFeedSpreadsheetRecord.m in Sources */,
+				E2BDB38613640D3100E24C0B /* GDataFeedSpreadsheetCell.m in Sources */,
+				E2BDB38713640D3100E24C0B /* GDataFeedSpreadsheetList.m in Sources */,
+				E2BDB38813640D3100E24C0B /* GDataFeedWorksheet.m in Sources */,
+				E2BDB38913640D3100E24C0B /* GDataSpreadsheetConstants.m in Sources */,
+				E2BDB38A13640D3100E24C0B /* GDataSpreadsheetHeader.m in Sources */,
+				E2BDB38B13640D3100E24C0B /* GDataSpreadsheetColumn.m in Sources */,
+				E2BDB38C13640D3100E24C0B /* GDataSpreadsheetData.m in Sources */,
+				E2BDB38D13640D3100E24C0B /* GDataSpreadsheetField.m in Sources */,
+				E2BDB38E13640D3100E24C0B /* GDataQuerySpreadsheet.m in Sources */,
+				E2BDB38F13640D3100E24C0B /* GDataRowColumnCount.m in Sources */,
+				E2BDB39013640D3100E24C0B /* GDataServiceGoogleSpreadsheet.m in Sources */,
+				E2BDB39113640D3100E24C0B /* GDataSpreadsheetCell.m in Sources */,
+				E2BDB39213640D3100E24C0B /* GDataSpreadsheetCustomElement.m in Sources */,
+				E2C9003F13654A7800DF2E18 /* GDFileViewController.m in Sources */,
+				E2C901B11365AD8A00DF2E18 /* SearchViewController.m in Sources */,
+				E20CFF7513684A06000E29CF /* DownloadedFile.m in Sources */,
+				E265D2AA137121FD00D6CA5F /* ImageViewController.m in Sources */,
+				E293CA3613716E8B0028FF86 /* ImageController.m in Sources */,
+				E2CE431F137291A8009D3A3C /* DownloadViewController.m in Sources */,
+				E2751208137A9802003FAE70 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E9552E811766B410003D25C /* FirstDetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E9552E911766B410003D25C /* en */,
+			);
+			name = FirstDetailView.xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		7E9552EA11766B410003D25C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E9552EB11766B410003D25C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		7E9552EC11766B410003D25C /* SecondDetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E9552ED11766B410003D25C /* en */,
+			);
+			name = SecondDetailView.xib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MultipleDetailViews_Prefix.pch;
+				INFOPLIST_FILE = "MultipleDetailViews-Info.plist";
+				PRODUCT_NAME = MultipleDetailViews;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MultipleDetailViews_Prefix.pch;
+				INFOPLIST_FILE = "MultipleDetailViews-Info.plist";
+				PRODUCT_NAME = MultipleDetailViews;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Brown-Forman GDocSync";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MultipleDetailViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MultipleDetailViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TabBarTrialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TabBarTrialAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		E203F57E134456FE00975659 /* TwitterUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E203F57D134456FE00975659 /* TwitterUtil.m */; };
+		E213609F134B1E650075084B /* PremiumStoreAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E213609E134B1E650075084B /* PremiumStoreAnnotation.m */; };
+		E213611B134C82D80075084B /* StoreDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2136119134C82D80075084B /* StoreDetailsViewController.m */; };
+		E213611C134C82D80075084B /* StoreDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E213611A134C82D80075084B /* StoreDetailsViewController.xib */; };
+		E21AA1781341D94600491FBB /* HomeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21AA1761341D94600491FBB /* HomeTabViewController.m */; };
+		E21AA1791341D94600491FBB /* HomeTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21AA1771341D94600491FBB /* HomeTabViewController.xib */; };
+		E21AA17B1341DA7400491FBB /* wine.png in Resources */ = {isa = PBXBuildFile; fileRef = E21AA17A1341DA7400491FBB /* wine.png */; };
+		E21AA1931341DEC600491FBB /* product.png in Resources */ = {isa = PBXBuildFile; fileRef = E21AA1921341DEC600491FBB /* product.png */; };
+		E21AA1BE1341E63900491FBB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21AA1BC1341E63900491FBB /* HomeViewController.m */; };
+		E21AA1BF1341E63900491FBB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21AA1BD1341E63900491FBB /* HomeViewController.xib */; };
+		E24B589D133C807400E66877 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = E24B5897133C807400E66877 /* account.png */; };
+		E24B589E133C807400E66877 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = E24B5898133C807400E66877 /* location.png */; };
+		E24B58A2133C807400E66877 /* wine-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = E24B589C133C807400E66877 /* wine-glass.png */; };
+		E24B58B7133C84EF00E66877 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = E24B58B6133C84EF00E66877 /* cart.png */; };
+		E24B58BC133C856700E66877 /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E24B58BA133C856700E66877 /* BackViewController.m */; };
+		E24B58BD133C856700E66877 /* BackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24B58BB133C856700E66877 /* BackViewController.xib */; };
+		E2C149E11345AEB500F68173 /* StoreLocatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C149DF1345AEB500F68173 /* StoreLocatorViewController.m */; };
+		E2C149E21345AEB500F68173 /* StoreLocatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C149E01345AEB500F68173 /* StoreLocatorViewController.xib */; };
+		E2C149EE1345AFA700F68173 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C149ED1345AFA700F68173 /* MapKit.framework */; };
+		E2C14A241345D4E500F68173 /* SearchStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C14A221345D4E500F68173 /* SearchStoreViewController.m */; };
+		E2C14A251345D4E500F68173 /* SearchStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C14A231345D4E500F68173 /* SearchStoreViewController.xib */; };
+		E2C14A4B1345ED1800F68173 /* StoreAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C14A4A1345ED1800F68173 /* StoreAnnotation.m */; };
+		E2CA4D7C13405CFB008EBF96 /* NewsTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4D7A13405CFB008EBF96 /* NewsTabViewController.m */; };
+		E2CA4D7D13405CFB008EBF96 /* NewsTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4D7B13405CFB008EBF96 /* NewsTabViewController.xib */; };
+		E2CA4D8113405D14008EBF96 /* ScannerTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4D7F13405D14008EBF96 /* ScannerTabViewController.m */; };
+		E2CA4D8213405D14008EBF96 /* ScannerTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4D8013405D14008EBF96 /* ScannerTabViewController.xib */; };
+		E2CA4DA513406189008EBF96 /* arrowleft.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DA313406189008EBF96 /* arrowleft.png */; };
+		E2CA4DA613406189008EBF96 /* arrowright.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DA413406189008EBF96 /* arrowright.png */; };
+		E2CA4DAB134061A8008EBF96 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DA7134061A8008EBF96 /* mail.png */; };
+		E2CA4DAC134061A8008EBF96 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DA8134061A8008EBF96 /* news.png */; };
+		E2CA4DAD134061A8008EBF96 /* scanner.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DA9134061A8008EBF96 /* scanner.png */; };
+		E2CA4DAE134061A8008EBF96 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DAA134061A8008EBF96 /* search.png */; };
+		E2CA4DB4134067BA008EBF96 /* ProductsTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4DB2134067B9008EBF96 /* ProductsTabViewController.m */; };
+		E2CA4DB5134067BA008EBF96 /* ProductsTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DB3134067BA008EBF96 /* ProductsTabViewController.xib */; };
+		E2CA4DB913406872008EBF96 /* StoreLocatorTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4DB713406872008EBF96 /* StoreLocatorTabViewController.m */; };
+		E2CA4DBA13406872008EBF96 /* StoreLocatorTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DB813406872008EBF96 /* StoreLocatorTabViewController.xib */; };
+		E2CA4DBE13406907008EBF96 /* MyAccountTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4DBC13406907008EBF96 /* MyAccountTabViewController.m */; };
+		E2CA4DBF13406907008EBF96 /* MyAccountTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DBD13406907008EBF96 /* MyAccountTabViewController.xib */; };
+		E2CA4DC31340698E008EBF96 /* SearchTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4DC11340698E008EBF96 /* SearchTabViewController.m */; };
+		E2CA4DC41340698E008EBF96 /* SearchTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DC21340698E008EBF96 /* SearchTabViewController.xib */; };
+		E2CA4DC8134069FA008EBF96 /* MoreTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4DC6134069FA008EBF96 /* MoreTabViewController.m */; };
+		E2CA4DC9134069FA008EBF96 /* MoreTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DC7134069FA008EBF96 /* MoreTabViewController.xib */; };
+		E2CA4DE813406B1D008EBF96 /* CartTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4DE613406B1D008EBF96 /* CartTabViewController.m */; };
+		E2CA4DE913406B1D008EBF96 /* CartTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DE713406B1D008EBF96 /* CartTabViewController.xib */; };
+		E2CA4DED13406BA5008EBF96 /* ContactUsTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4DEB13406BA5008EBF96 /* ContactUsTabViewController.m */; };
+		E2CA4DEE13406BA5008EBF96 /* ContactUsTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4DEC13406BA5008EBF96 /* ContactUsTabViewController.xib */; };
+		E2CA4E2B134084A7008EBF96 /* ProductCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CA4E29134084A7008EBF96 /* ProductCategoriesViewController.m */; };
+		E2CA4E2C134084A7008EBF96 /* ProductCategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2CA4E2A134084A7008EBF96 /* ProductCategoriesViewController.xib */; };
+		E2E218FF13545EB400479047 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E218FE13545EB400479047 /* CoreLocation.framework */; };
+		E2E2192F13545FCA00479047 /* CoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E2192E13545FCA00479047 /* CoreLocationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TabBarTrialAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarTrialAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TabBarTrialAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarTrialAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TabBarTrial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarTrial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TabBarTrial_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarTrial_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TabBarTrial-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TabBarTrial-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E203F57C134456FE00975659 /* TwitterUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterUtil.h; sourceTree = "<group>"; };
+		E203F57D134456FE00975659 /* TwitterUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterUtil.m; sourceTree = "<group>"; };
+		E213609D134B1E650075084B /* PremiumStoreAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremiumStoreAnnotation.h; sourceTree = "<group>"; };
+		E213609E134B1E650075084B /* PremiumStoreAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremiumStoreAnnotation.m; sourceTree = "<group>"; };
+		E2136118134C82D80075084B /* StoreDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreDetailsViewController.h; sourceTree = "<group>"; };
+		E2136119134C82D80075084B /* StoreDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreDetailsViewController.m; sourceTree = "<group>"; };
+		E213611A134C82D80075084B /* StoreDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StoreDetailsViewController.xib; path = Classes/StoreDetailsViewController.xib; sourceTree = "<group>"; };
+		E21AA1751341D94600491FBB /* HomeTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabViewController.h; sourceTree = "<group>"; };
+		E21AA1761341D94600491FBB /* HomeTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabViewController.m; sourceTree = "<group>"; };
+		E21AA1771341D94600491FBB /* HomeTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeTabViewController.xib; path = Classes/HomeTabViewController.xib; sourceTree = "<group>"; };
+		E21AA17A1341DA7400491FBB /* wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wine.png; path = ../wine.png; sourceTree = SOURCE_ROOT; };
+		E21AA1921341DEC600491FBB /* product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = product.png; path = ../product.png; sourceTree = SOURCE_ROOT; };
+		E21AA1BB1341E63900491FBB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E21AA1BC1341E63900491FBB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E21AA1BD1341E63900491FBB /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Classes/HomeViewController.xib; sourceTree = "<group>"; };
+		E24B5897133C807400E66877 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = account.png; path = ../account.png; sourceTree = SOURCE_ROOT; };
+		E24B5898133C807400E66877 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = ../location.png; sourceTree = SOURCE_ROOT; };
+		E24B589C133C807400E66877 /* wine-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wine-glass.png"; path = "../wine-glass.png"; sourceTree = SOURCE_ROOT; };
+		E24B58B6133C84EF00E66877 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cart.png; path = ../icons/cart.png; sourceTree = SOURCE_ROOT; };
+		E24B58B9133C856700E66877 /* BackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackViewController.h; sourceTree = "<group>"; };
+		E24B58BA133C856700E66877 /* BackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackViewController.m; sourceTree = "<group>"; };
+		E24B58BB133C856700E66877 /* BackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BackViewController.xib; path = Classes/BackViewController.xib; sourceTree = "<group>"; };
+		E2C149DE1345AEB500F68173 /* StoreLocatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreLocatorViewController.h; sourceTree = "<group>"; };
+		E2C149DF1345AEB500F68173 /* StoreLocatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreLocatorViewController.m; sourceTree = "<group>"; };
+		E2C149E01345AEB500F68173 /* StoreLocatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StoreLocatorViewController.xib; path = Classes/StoreLocatorViewController.xib; sourceTree = "<group>"; };
+		E2C149ED1345AFA700F68173 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E2C14A211345D4E500F68173 /* SearchStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchStoreViewController.h; sourceTree = "<group>"; };
+		E2C14A221345D4E500F68173 /* SearchStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchStoreViewController.m; sourceTree = "<group>"; };
+		E2C14A231345D4E500F68173 /* SearchStoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SearchStoreViewController.xib; path = Classes/SearchStoreViewController.xib; sourceTree = "<group>"; };
+		E2C14A491345ED1800F68173 /* StoreAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreAnnotation.h; sourceTree = "<group>"; };
+		E2C14A4A1345ED1800F68173 /* StoreAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreAnnotation.m; sourceTree = "<group>"; };
+		E2CA4D7913405CFB008EBF96 /* NewsTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTabViewController.h; sourceTree = "<group>"; };
+		E2CA4D7A13405CFB008EBF96 /* NewsTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTabViewController.m; sourceTree = "<group>"; };
+		E2CA4D7B13405CFB008EBF96 /* NewsTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewsTabViewController.xib; path = Classes/NewsTabViewController.xib; sourceTree = "<group>"; };
+		E2CA4D7E13405D14008EBF96 /* ScannerTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerTabViewController.h; sourceTree = "<group>"; };
+		E2CA4D7F13405D14008EBF96 /* ScannerTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerTabViewController.m; sourceTree = "<group>"; };
+		E2CA4D8013405D14008EBF96 /* ScannerTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ScannerTabViewController.xib; path = Classes/ScannerTabViewController.xib; sourceTree = "<group>"; };
+		E2CA4DA313406189008EBF96 /* arrowleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowleft.png; path = ../arrowleft.png; sourceTree = SOURCE_ROOT; };
+		E2CA4DA413406189008EBF96 /* arrowright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowright.png; path = ../arrowright.png; sourceTree = SOURCE_ROOT; };
+		E2CA4DA7134061A8008EBF96 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = ../mail.png; sourceTree = SOURCE_ROOT; };
+		E2CA4DA8134061A8008EBF96 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = news.png; path = ../news.png; sourceTree = SOURCE_ROOT; };
+		E2CA4DA9134061A8008EBF96 /* scanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scanner.png; path = ../scanner.png; sourceTree = SOURCE_ROOT; };
+		E2CA4DAA134061A8008EBF96 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = ../search.png; sourceTree = SOURCE_ROOT; };
+		E2CA4DB1134067B9008EBF96 /* ProductsTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsTabViewController.h; sourceTree = "<group>"; };
+		E2CA4DB2134067B9008EBF96 /* ProductsTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsTabViewController.m; sourceTree = "<group>"; };
+		E2CA4DB3134067BA008EBF96 /* ProductsTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductsTabViewController.xib; path = Classes/ProductsTabViewController.xib; sourceTree = "<group>"; };
+		E2CA4DB613406872008EBF96 /* StoreLocatorTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreLocatorTabViewController.h; sourceTree = "<group>"; };
+		E2CA4DB713406872008EBF96 /* StoreLocatorTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreLocatorTabViewController.m; sourceTree = "<group>"; };
+		E2CA4DB813406872008EBF96 /* StoreLocatorTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StoreLocatorTabViewController.xib; path = Classes/StoreLocatorTabViewController.xib; sourceTree = "<group>"; };
+		E2CA4DBB13406907008EBF96 /* MyAccountTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountTabViewController.h; sourceTree = "<group>"; };
+		E2CA4DBC13406907008EBF96 /* MyAccountTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountTabViewController.m; sourceTree = "<group>"; };
+		E2CA4DBD13406907008EBF96 /* MyAccountTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MyAccountTabViewController.xib; path = Classes/MyAccountTabViewController.xib; sourceTree = "<group>"; };
+		E2CA4DC01340698E008EBF96 /* SearchTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTabViewController.h; sourceTree = "<group>"; };
+		E2CA4DC11340698E008EBF96 /* SearchTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTabViewController.m; sourceTree = "<group>"; };
+		E2CA4DC21340698E008EBF96 /* SearchTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SearchTabViewController.xib; path = Classes/SearchTabViewController.xib; sourceTree = "<group>"; };
+		E2CA4DC5134069FA008EBF96 /* MoreTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTabViewController.h; sourceTree = "<group>"; };
+		E2CA4DC6134069FA008EBF96 /* MoreTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTabViewController.m; sourceTree = "<group>"; };
+		E2CA4DC7134069FA008EBF96 /* MoreTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MoreTabViewController.xib; path = Classes/MoreTabViewController.xib; sourceTree = "<group>"; };
+		E2CA4DE513406B1D008EBF96 /* CartTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartTabViewController.h; sourceTree = "<group>"; };
+		E2CA4DE613406B1D008EBF96 /* CartTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartTabViewController.m; sourceTree = "<group>"; };
+		E2CA4DE713406B1D008EBF96 /* CartTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CartTabViewController.xib; path = Classes/CartTabViewController.xib; sourceTree = "<group>"; };
+		E2CA4DEA13406BA5008EBF96 /* ContactUsTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsTabViewController.h; sourceTree = "<group>"; };
+		E2CA4DEB13406BA5008EBF96 /* ContactUsTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsTabViewController.m; sourceTree = "<group>"; };
+		E2CA4DEC13406BA5008EBF96 /* ContactUsTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContactUsTabViewController.xib; path = Classes/ContactUsTabViewController.xib; sourceTree = "<group>"; };
+		E2CA4E28134084A7008EBF96 /* ProductCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCategoriesViewController.h; sourceTree = "<group>"; };
+		E2CA4E29134084A7008EBF96 /* ProductCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCategoriesViewController.m; sourceTree = "<group>"; };
+		E2CA4E2A134084A7008EBF96 /* ProductCategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductCategoriesViewController.xib; path = Classes/ProductCategoriesViewController.xib; sourceTree = "<group>"; };
+		E2E218FE13545EB400479047 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E2E2192D13545FCA00479047 /* CoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLocationController.h; sourceTree = "<group>"; };
+		E2E2192E13545FCA00479047 /* CoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				E2C149EE1345AFA700F68173 /* MapKit.framework in Frameworks */,
+				E2E218FF13545EB400479047 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* TabBarTrialAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TabBarTrialAppDelegate.m */,
+				E24B58B9133C856700E66877 /* BackViewController.h */,
+				E24B58BA133C856700E66877 /* BackViewController.m */,
+				E2CA4D7913405CFB008EBF96 /* NewsTabViewController.h */,
+				E2CA4D7A13405CFB008EBF96 /* NewsTabViewController.m */,
+				E2CA4D7E13405D14008EBF96 /* ScannerTabViewController.h */,
+				E2CA4D7F13405D14008EBF96 /* ScannerTabViewController.m */,
+				E2CA4DB1134067B9008EBF96 /* ProductsTabViewController.h */,
+				E2CA4DB2134067B9008EBF96 /* ProductsTabViewController.m */,
+				E2CA4DB613406872008EBF96 /* StoreLocatorTabViewController.h */,
+				E2CA4DB713406872008EBF96 /* StoreLocatorTabViewController.m */,
+				E2CA4DBB13406907008EBF96 /* MyAccountTabViewController.h */,
+				E2CA4DBC13406907008EBF96 /* MyAccountTabViewController.m */,
+				E2CA4DC01340698E008EBF96 /* SearchTabViewController.h */,
+				E2CA4DC11340698E008EBF96 /* SearchTabViewController.m */,
+				E2CA4DC5134069FA008EBF96 /* MoreTabViewController.h */,
+				E2CA4DC6134069FA008EBF96 /* MoreTabViewController.m */,
+				E2CA4DE513406B1D008EBF96 /* CartTabViewController.h */,
+				E2CA4DE613406B1D008EBF96 /* CartTabViewController.m */,
+				E2CA4DEA13406BA5008EBF96 /* ContactUsTabViewController.h */,
+				E2CA4DEB13406BA5008EBF96 /* ContactUsTabViewController.m */,
+				E2CA4E28134084A7008EBF96 /* ProductCategoriesViewController.h */,
+				E2CA4E29134084A7008EBF96 /* ProductCategoriesViewController.m */,
+				E21AA1751341D94600491FBB /* HomeTabViewController.h */,
+				E21AA1761341D94600491FBB /* HomeTabViewController.m */,
+				E21AA1BB1341E63900491FBB /* HomeViewController.h */,
+				E21AA1BC1341E63900491FBB /* HomeViewController.m */,
+				E203F57C134456FE00975659 /* TwitterUtil.h */,
+				E203F57D134456FE00975659 /* TwitterUtil.m */,
+				E2C149DE1345AEB500F68173 /* StoreLocatorViewController.h */,
+				E2C149DF1345AEB500F68173 /* StoreLocatorViewController.m */,
+				E2C14A211345D4E500F68173 /* SearchStoreViewController.h */,
+				E2C14A221345D4E500F68173 /* SearchStoreViewController.m */,
+				E2C14A491345ED1800F68173 /* StoreAnnotation.h */,
+				E2C14A4A1345ED1800F68173 /* StoreAnnotation.m */,
+				E213609D134B1E650075084B /* PremiumStoreAnnotation.h */,
+				E213609E134B1E650075084B /* PremiumStoreAnnotation.m */,
+				E2136118134C82D80075084B /* StoreDetailsViewController.h */,
+				E2136119134C82D80075084B /* StoreDetailsViewController.m */,
+				E2E2192D13545FCA00479047 /* CoreLocationController.h */,
+				E2E2192E13545FCA00479047 /* CoreLocationController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TabBarTrial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TabBarTrial_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E213611A134C82D80075084B /* StoreDetailsViewController.xib */,
+				E2C14A231345D4E500F68173 /* SearchStoreViewController.xib */,
+				E2C149E01345AEB500F68173 /* StoreLocatorViewController.xib */,
+				E21AA1BD1341E63900491FBB /* HomeViewController.xib */,
+				E21AA1921341DEC600491FBB /* product.png */,
+				E21AA17A1341DA7400491FBB /* wine.png */,
+				E21AA1771341D94600491FBB /* HomeTabViewController.xib */,
+				E2CA4E2A134084A7008EBF96 /* ProductCategoriesViewController.xib */,
+				E2CA4DEC13406BA5008EBF96 /* ContactUsTabViewController.xib */,
+				E2CA4DE713406B1D008EBF96 /* CartTabViewController.xib */,
+				E2CA4DC7134069FA008EBF96 /* MoreTabViewController.xib */,
+				E2CA4DC21340698E008EBF96 /* SearchTabViewController.xib */,
+				E2CA4DBD13406907008EBF96 /* MyAccountTabViewController.xib */,
+				E2CA4DB813406872008EBF96 /* StoreLocatorTabViewController.xib */,
+				E2CA4DB3134067BA008EBF96 /* ProductsTabViewController.xib */,
+				E2CA4DA7134061A8008EBF96 /* mail.png */,
+				E2CA4DA8134061A8008EBF96 /* news.png */,
+				E2CA4DA9134061A8008EBF96 /* scanner.png */,
+				E2CA4DAA134061A8008EBF96 /* search.png */,
+				E2CA4DA313406189008EBF96 /* arrowleft.png */,
+				E2CA4DA413406189008EBF96 /* arrowright.png */,
+				E2CA4D7B13405CFB008EBF96 /* NewsTabViewController.xib */,
+				E2CA4D8013405D14008EBF96 /* ScannerTabViewController.xib */,
+				E24B58BB133C856700E66877 /* BackViewController.xib */,
+				E24B58B6133C84EF00E66877 /* cart.png */,
+				E24B5897133C807400E66877 /* account.png */,
+				E24B5898133C807400E66877 /* location.png */,
+				E24B589C133C807400E66877 /* wine-glass.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TabBarTrial-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				E2C149ED1345AFA700F68173 /* MapKit.framework */,
+				E2E218FE13545EB400479047 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TabBarTrial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TabBarTrial" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabBarTrial;
+			productName = TabBarTrial;
+			productReference = 1D6058910D05DD3D006BFB54 /* TabBarTrial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TabBarTrial" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TabBarTrial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				E24B589D133C807400E66877 /* account.png in Resources */,
+				E24B589E133C807400E66877 /* location.png in Resources */,
+				E24B58A2133C807400E66877 /* wine-glass.png in Resources */,
+				E24B58B7133C84EF00E66877 /* cart.png in Resources */,
+				E24B58BD133C856700E66877 /* BackViewController.xib in Resources */,
+				E2CA4D7D13405CFB008EBF96 /* NewsTabViewController.xib in Resources */,
+				E2CA4D8213405D14008EBF96 /* ScannerTabViewController.xib in Resources */,
+				E2CA4DA513406189008EBF96 /* arrowleft.png in Resources */,
+				E2CA4DA613406189008EBF96 /* arrowright.png in Resources */,
+				E2CA4DAB134061A8008EBF96 /* mail.png in Resources */,
+				E2CA4DAC134061A8008EBF96 /* news.png in Resources */,
+				E2CA4DAD134061A8008EBF96 /* scanner.png in Resources */,
+				E2CA4DAE134061A8008EBF96 /* search.png in Resources */,
+				E2CA4DB5134067BA008EBF96 /* ProductsTabViewController.xib in Resources */,
+				E2CA4DBA13406872008EBF96 /* StoreLocatorTabViewController.xib in Resources */,
+				E2CA4DBF13406907008EBF96 /* MyAccountTabViewController.xib in Resources */,
+				E2CA4DC41340698E008EBF96 /* SearchTabViewController.xib in Resources */,
+				E2CA4DC9134069FA008EBF96 /* MoreTabViewController.xib in Resources */,
+				E2CA4DE913406B1D008EBF96 /* CartTabViewController.xib in Resources */,
+				E2CA4DEE13406BA5008EBF96 /* ContactUsTabViewController.xib in Resources */,
+				E2CA4E2C134084A7008EBF96 /* ProductCategoriesViewController.xib in Resources */,
+				E21AA1791341D94600491FBB /* HomeTabViewController.xib in Resources */,
+				E21AA17B1341DA7400491FBB /* wine.png in Resources */,
+				E21AA1931341DEC600491FBB /* product.png in Resources */,
+				E21AA1BF1341E63900491FBB /* HomeViewController.xib in Resources */,
+				E2C149E21345AEB500F68173 /* StoreLocatorViewController.xib in Resources */,
+				E2C14A251345D4E500F68173 /* SearchStoreViewController.xib in Resources */,
+				E213611C134C82D80075084B /* StoreDetailsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TabBarTrialAppDelegate.m in Sources */,
+				E24B58BC133C856700E66877 /* BackViewController.m in Sources */,
+				E2CA4D7C13405CFB008EBF96 /* NewsTabViewController.m in Sources */,
+				E2CA4D8113405D14008EBF96 /* ScannerTabViewController.m in Sources */,
+				E2CA4DB4134067BA008EBF96 /* ProductsTabViewController.m in Sources */,
+				E2CA4DB913406872008EBF96 /* StoreLocatorTabViewController.m in Sources */,
+				E2CA4DBE13406907008EBF96 /* MyAccountTabViewController.m in Sources */,
+				E2CA4DC31340698E008EBF96 /* SearchTabViewController.m in Sources */,
+				E2CA4DC8134069FA008EBF96 /* MoreTabViewController.m in Sources */,
+				E2CA4DE813406B1D008EBF96 /* CartTabViewController.m in Sources */,
+				E2CA4DED13406BA5008EBF96 /* ContactUsTabViewController.m in Sources */,
+				E2CA4E2B134084A7008EBF96 /* ProductCategoriesViewController.m in Sources */,
+				E21AA1781341D94600491FBB /* HomeTabViewController.m in Sources */,
+				E21AA1BE1341E63900491FBB /* HomeViewController.m in Sources */,
+				E203F57E134456FE00975659 /* TwitterUtil.m in Sources */,
+				E2C149E11345AEB500F68173 /* StoreLocatorViewController.m in Sources */,
+				E2C14A241345D4E500F68173 /* SearchStoreViewController.m in Sources */,
+				E2C14A4B1345ED1800F68173 /* StoreAnnotation.m in Sources */,
+				E213609F134B1E650075084B /* PremiumStoreAnnotation.m in Sources */,
+				E213611B134C82D80075084B /* StoreDetailsViewController.m in Sources */,
+				E2E2192F13545FCA00479047 /* CoreLocationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../gdata-objectivec-client-1.11.0 (1)/Source/build/Debug\"",
+					"\"$(SDKROOT)$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TabBarTrial_Prefix.pch;
+				INFOPLIST_FILE = "TabBarTrial-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../gdata-objectivec-client-1.11.0 (1)/Source/build/GData.build/Debug/GDataFramework.build/Objects-normal/i386\"",
+				);
+				PRODUCT_NAME = TabBarTrial;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../gdata-objectivec-client-1.11.0 (1)/Source/build/Debug\"",
+					"\"$(SDKROOT)$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TabBarTrial_Prefix.pch;
+				INFOPLIST_FILE = "TabBarTrial-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../gdata-objectivec-client-1.11.0 (1)/Source/build/GData.build/Debug/GDataFramework.build/Objects-normal/i386\"",
+				);
+				PRODUCT_NAME = TabBarTrial;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TabBarTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TabBarTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
